@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>新版哈尔冰银行</title>
+<link rel="stylesheet"  href="../WebResources/Css/shopping/common.css">
+<link rel="stylesheet"  href="../WebResources/Css/shopping/layout.css">
+<link rel="stylesheet"  href="../WebResources/bootstrap-3.3.6-dist/Css/bootstrap.min.css">
+</head>
+<body>
+<!--头部-->
+<div class="toolbar">
+  <div class="w-1200 clearfix">
+    <div class="link-user">您好，欢迎来到哈尔冰银行信用卡商城</div>
+    <nav>
+      <ul class="clearfix">
+        <li class="fore1"><a href="#">注册</a><a href="#">登陆</a></li>
+        <li class="li-bd">|</li>
+        <li> <a href="#">我的订单</a> </li>
+        <li class="li-bd">|</li>
+        <li><a href="#">会员中心</a></li>
+        <li class="li-bd">|</li>
+        <li class="fore2 fore3">
+          <div class="dropmenu-hd"><a href="/" target="_blank" class="dropmenu-tit">客户服务</a> <i class="h-arrow"></i></div>
+          <div  class="dorpdown-layer hide">
+            <div class="dd-spacer"></div>
+            <div class="otherlist"> <a href="/">购物流程</a> <a href="/">帮助中心</a> <a class="last" href="/">客服热线：400-000-0000</a> </div>
+          </div>
+        </li>
+        <li class="li-bd">|</li>
+        <li><a href="#">哈尔冰银行信用卡官网</a></li>
+        <li class="li-bd">|</li>
+        <li><a href="#">收藏本站</a></li>
+        <li class="li-bd">|</li>
+        <li class="fore4" >
+          <div class="ewm-2016"><a href="/" class="allbg"></a></div>
+          <div  class=" layer-ewm hide">
+            <div class="dd-spacer2"></div>
+            <div class="ewm"><img src="../WebResources/Images/shopping/ewm2.jpg" width="200" height="112"></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<!--ic_toolbar-->
+
+<div class="header">
+  <div class="w-1200 clearfix">
+    <div class="logo"><a href="#"><img src="../WebResources/Images/shopping/logo.png" width="200" height="70"></a> </div>
+    <div class="row-search">
+      <ul class="clearfix">
+        <li class="cur"><a href="###">购物</a></li>
+        <li><a href="###">生活</a></li>
+      </ul>
+      <div class="col-lg-12">
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+          <button class="btn btn-default" type="button"> 搜索 </button>
+          </span> </div>
+        <!-- /input-group -->
+        <div class="keyword"><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a></div>
+      </div>
+      <!-- /.col-lg-6 --> 
+    </div>
+    <!-- /.row-search -->
+    
+    <div class="h-cart"> <i class="ci-count">0</i> <i class=" allbg iconfont"></i> <a target="_blank" href="###">我的购物车</a> </div>
+  </div>
+</div>
+
+<!--ic_header-->
+<div class="nav-2016">
+  <div class="w-1200">
+    <div class="dorpdown" id="newdorpdown">
+      <div class="dt" id="dt"> <a href="/" target="_blank">全部商品分类</a> </div>
+    </div>
+    <div class="navitems-2016">
+      <ul class="navitems-group">
+        <li class="cur"> <a href="/">商城首页</a></li>
+        <li><a href="/">积分频道</a> </li>
+        <li> <a href="/">分期频道</a> </li>
+        <li> <a href="/">公共缴费</a> </li>
+        <li> <a href="/">本地生活</a> </li>
+        <li> <a href="/">商&nbsp;旅</a> </li>
+        <li> <a href="/">违章缴费</a> </li>
+      </ul>
+    </div>
+    <div class="small-banner"> 
+      <!--公告-->
+      <div class="notice"> <i class="allbg"></i>
+        <div class="t-news" id="t-news"> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延1</a> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延2</a> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延3</a> </div>
+        <script type="text/javascript">
+                var box = document.getElementById("t-news"), can = true;
+                box.innerHTML += box.innerHTML;
+                box.onmouseover = function () { can = false };
+                box.onmouseout = function () { can = true };
+                new function () {
+                    var stop = box.scrollTop % 24 == 0 && !can;
+                    if (!stop) box.scrollTop == parseInt(box.scrollHeight / 2) ? box.scrollTop = 0 : box.scrollTop++;
+                    setTimeout(arguments.callee, box.scrollTop % 24 ? 10 : 2000);
+                };
+            </script> 
+      </div>
+    </div>
+  </div>
+</div>
+<!--nav-->
+<div class="hrb-main">
+  <div class="w-1200 clearfix">
+    <ol class="breadcrumb">
+      <li><a href="#">首页</a></li>
+      <li><a href="#">电脑&nbsp;通讯&nbsp;数码</a></li>
+      <li class="active">笔记本</li>
+    </ol>
+    <div class="detail hrb-jqzoom clearfix">
+      <div class="detail-img">
+        <div class="big-img">
+          <ul class="clearfix">
+            <li> <a href="../WebResources/Images/shopping/big.jpg" class="jqzoom" rel='gal1'> <img src="../WebResources/Images/shopping/mid.jpg" style="border:1px solid #666;"> </a> </li>
+          </ul>
+        </div>
+        <div class="small-img"> <a href="javascript:;" class="slider-prev img-btn prev dis"> <b></b> </a> <a href="javascript:;" class="slider-next img-btn next"> <b></b> </a>
+          <div class="img-list jcarousel" style="overflow:hidden; position:relative">
+            <ul class="clearfix">
+              <li> <a href="javascript:void(0);" rel="{gallery:'gal1', smallimage:'../WebResources/Images/shopping/mid.jpg', largeimage:'../WebResources/Images/shopping/big.jpg'}"><img alt="" src="../WebResources/Images/shopping/mid.jpg" height="68" width="60"/></a> </li>
+              <li><a href="javascript:void(0);" rel="{gallery:'gal1', smallimage:'../WebResources/Images/shopping/goodsDetail_1.jpg', largeimage:'../WebResources/Images/shopping/goodsDetail_2.jpg'}"><img alt="" src="../WebResources/Images/shopping/goodsDetail_1.jpg" height="68" width="60"/></a> </li>
+              <li> <a href="javascript:void(0);" rel="{gallery:'gal1', smallimage:'../WebResources/Images/shopping/mid.jpg', largeimage:'../WebResources/Images/shopping/big.jpg'}"><img alt="" src="../WebResources/Images/shopping/mid.jpg" height="68" width="60"/></a> </li>
+              <li><a href="javascript:void(0);" rel="{gallery:'gal1', smallimage:'../WebResources/Images/shopping/goodsDetail_1.jpg', largeimage:'../WebResources/Images/shopping/goodsDetail_2.jpg'}"><img alt="" src="../WebResources/Images/shopping/goodsDetail_1.jpg" height="68" width="60"/></a> </li>
+              <li><a href="javascript:void(0);" rel="{gallery:'gal1', smallimage:'../WebResources/Images/shopping/mid.jpg', largeimage:'../WebResources/Images/shopping/big.jpg'}"><img alt="" src="../WebResources/Images/shopping/mid.jpg" height="68" width="60"/></a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="detail-share">
+          <div class="goodsID"> <span>商品编号：</span> <span>001002-3290099-3089</span> </div>
+          <a href="/"> <i class="allbg share"></i> <span>分享</span> </a> <a href="/"> <i class="allbg coll"></i> <span>收藏</span> </a> </div>
+      </div>
+      <div class="detail-text">
+        <div class="goods-name">
+          <h1>三星(samsung) Galaxy S7 edge 32G 全网通 4G手机 三星(samsung) Galaxy S7 edge 32G 全网通 4G手机 三星(samsung) Galaxy S7 edge 32G 全网通 4G手机 三星(samsung) Galaxy S7 edge 32G 全网通 4G手机</h1>
+          <h6>金色、玫瑰金色两色可选，下单成功后客服电话确认订单颜色</h6>
+        </div>
+        <div class="goods-text">
+          <ul>
+            <li><span class="dt">商城价：</span><span class="price"><i>￥</i>2545.00+300000<i>积分</i></span></li>
+            <li> <span class="dt">积分价：</span> <span class="price">300000<i>积分</i></span></li>
+            <li> <span class="dt">分期价：</span> <span class="span-bd">￥149.00x12期</span><span class="span-bd cur">￥149.00x12期</span> </li>
+            <li> <span class="dt">优惠方式：</span> <span>免运费</span> </li>
+          </ul>
+          <div class="commit-summary"><a href="/" class="commit-num">66</a>人评论</div>
+        </div>
+        <div class="summary-stock"  >
+          <div class="dt">配 送 至：</div>
+          <div class="dd">
+            <div class="store clearfix">
+              <div id="stock-address" class="stock-address EDropdown " > 
+                <!--<div id="stock-address" class="stock-address EDropdown hover" >-->
+                <div class="inner"><!--<div class="inner border">-->
+                  <div class="head"> <span class="text">请选择</span> <span class="arrow arr-close"></span> </div>
+                  <div class="content" style="display:none;">
+                    <dl class="address-select clicked">
+                      <dt data-drop="head"><strong>选择新地址</strong><span class="arrow"></span></dt>
+                      <dd class="stock-address-list">
+                        <div class="address-tab J-address-tab ETab">
+                          <ul class="tab">
+                            <li data-tab="trigger" class="" >上海</li>
+                            <li data-tab="trigger" >浦东新区</li>
+                            <li data-tab="trigger"  class="current">高桥镇</li>
+                            <li data-tab="trigger" style="display:none" ></li>
+                          </ul>
+                          <div class="tab-con">
+                            <div data-tab="item"  style="display: none;">
+                              <li data-value="1" data-name="北京"><a href="#none">北京</a></li>
+                              <li data-value="2" data-name="上海"><a href="#none">上海</a></li>
+                              <li data-value="3" data-name="天津"><a href="#none">天津</a></li>
+                              <li data-value="4" data-name="重庆"><a href="#none">重庆</a></li>
+                              <li data-value="5" data-name="河北"><a href="#none">河北</a></li>
+                              <li data-value="6" data-name="山西"><a href="#none">山西</a></li>
+                              <li data-value="7" data-name="河南"><a href="#none">河南</a></li>
+                              <li data-value="8" data-name="辽宁"><a href="#none">辽宁</a></li>
+                              <li data-value="9" data-name="吉林"><a href="#none">吉林</a></li>
+                              <li data-value="10" data-name="黑龙江"><a href="#none">黑龙江</a></li>
+                              <li data-value="11" data-name="内蒙古"><a href="#none">内蒙古</a></li>
+                              <li data-value="12" data-name="江苏"><a href="#none">江苏</a></li>
+                              <li data-value="13" data-name="山东"><a href="#none">山东</a></li>
+                              <li data-value="14" data-name="安徽"><a href="#none">安徽</a></li>
+                              <li data-value="15" data-name="浙江"><a href="#none">浙江</a></li>
+                              <li data-value="16" data-name="福建"><a href="#none">福建</a></li>
+                              <li data-value="17" data-name="湖北"><a href="#none">湖北</a></li>
+                              <li data-value="18" data-name="湖南"><a href="#none">湖南</a></li>
+                              <li data-value="19" data-name="广东"><a href="#none">广东</a></li>
+                              <li data-value="20" data-name="广西"><a href="#none">广西</a></li>
+                              <li data-value="21" data-name="江西"><a href="#none">江西</a></li>
+                              <li data-value="22" data-name="四川"><a href="#none">四川</a></li>
+                              <li data-value="23" data-name="海南"><a href="#none">海南</a></li>
+                              <li data-value="24" data-name="贵州"><a href="#none">贵州</a></li>
+                              <li data-value="25" data-name="云南"><a href="#none">云南</a></li>
+                              <li data-value="26" data-name="西藏"><a href="#none">西藏</a></li>
+                              <li data-value="27" data-name="陕西"><a href="#none">陕西</a></li>
+                              <li data-value="28" data-name="甘肃"><a href="#none">甘肃</a></li>
+                              <li data-value="29" data-name="青海"><a href="#none">青海</a></li>
+                              <li data-value="30" data-name="宁夏"><a href="#none">宁夏</a></li>
+                              <li data-value="31" data-name="新疆"><a href="#none">新疆</a></li>
+                              <li data-value="32" data-name="台湾"><a href="#none">台湾</a></li>
+                              <li data-value="52993" data-name="港澳"><a href="#none">港澳</a></li>
+                              <li data-value="84" data-name="钓鱼岛"><a href="#none">钓鱼岛</a></li>
+                              <li data-value="53283" data-name="海外"><a href="#none">海外</a></li>
+                            </div>
+                            <div data-tab="item" style="display: none;">
+                              <li data-name="徐汇区" data-value="2813" class=""><a href="#none">徐汇区</a></li>
+                              <li data-name="长宁区" data-value="2815" class=""><a href="#none">长宁区</a></li>
+                              <li data-name="静安区" data-value="2817" class=""><a href="#none">静安区</a></li>
+                              <li data-name="闸北区" data-value="2820" class=""><a href="#none">闸北区</a></li>
+                              <li data-name="虹口区" data-value="2822" class=""><a href="#none">虹口区</a></li>
+                              <li data-name="杨浦区" data-value="2823" class=""><a href="#none">杨浦区</a></li>
+                              <li data-name="宝山区" data-value="2824" class=""><a href="#none">宝山区</a></li>
+                              <li data-name="闵行区" data-value="2825" class=""><a href="#none">闵行区</a></li>
+                              <li data-name="嘉定区" data-value="2826" class=""><a href="#none">嘉定区</a></li>
+                              <li data-name="浦东新区" data-value="2830" class=""><a href="#none">浦东新区</a></li>
+                              <li data-name="青浦区" data-value="2833" class=""><a href="#none">青浦区</a></li>
+                              <li data-name="松江区" data-value="2834" class=""><a href="#none">松江区</a></li>
+                              <li data-name="金山区" data-value="2835" class=""><a href="#none">金山区</a></li>
+                              <li data-name="奉贤区" data-value="2837" class=""><a href="#none">奉贤区</a></li>
+                              <li data-name="普陀区" data-value="2841" class=""><a href="#none">普陀区</a></li>
+                              <li data-name="崇明县" data-value="2919" class=""><a href="#none">崇明县</a></li>
+                              <li data-name="黄浦区" data-value="78" class=""><a href="#none">黄浦区</a></li>
+                            </div>
+                            <div data-tab="item" style="display: block;">
+                              <li data-name="城区" data-value="51800" class=""><a href="#none">城区</a></li>
+                              <li data-name="川沙新镇" data-value="51801" class=""><a href="#none">川沙新镇</a></li>
+                              <li data-name="祝桥镇" data-value="51822" class=""><a href="#none">祝桥镇</a></li>
+                              <li data-name="新场镇" data-value="51823" class=""><a href="#none">新场镇</a></li>
+                              <li data-name="高桥镇" data-value="51802" class=""><a href="#none">高桥镇</a></li>
+                              <li data-name="惠南镇" data-value="51824" class=""><a href="#none">惠南镇</a></li>
+                              <li data-name="北蔡镇" data-value="51803" class=""><a href="#none">北蔡镇</a></li>
+                              <li data-name="合庆镇" data-value="51804" class=""><a href="#none">合庆镇</a></li>
+                              <li data-name="唐镇" data-value="51805" class=""><a href="#none">唐镇</a></li>
+                              <li data-name="曹路镇" data-value="51806" class=""><a href="#none">曹路镇</a></li>
+                              <li data-name="金桥镇" data-value="51807" class=""><a href="#none">金桥镇</a></li>
+                              <li data-name="高行镇" data-value="51808" class=""><a href="#none">高行镇</a></li>
+                              <li data-name="高东镇" data-value="51809" class=""><a href="#none">高东镇</a></li>
+                              <li data-name="张江镇" data-value="51810" class=""><a href="#none">张江镇</a></li>
+                              <li data-name="三林镇" data-value="51811" class=""><a href="#none">三林镇</a></li>
+                              <li data-name="南汇新城镇" data-value="51812" class=""><a href="#none">南汇新城镇</a></li>
+                              <li data-name="康桥镇" data-value="51825" class=""><a href="#none">康桥镇</a></li>
+                              <li data-name="宣桥镇" data-value="51826" class=""><a href="#none">宣桥镇</a></li>
+                              <li data-name="书院镇" data-value="51827" class=""><a href="#none">书院镇</a></li>
+                              <li data-name="大团镇" data-value="51828" class=""><a href="#none">大团镇</a></li>
+                              <li data-name="周浦镇" data-value="51829" class=""><a href="#none">周浦镇</a></li>
+                              <li data-name="芦潮港镇" data-value="51830" class=""><a href="#none">芦潮港镇</a></li>
+                              <li data-name="泥城镇" data-value="51831" class=""><a href="#none">泥城镇</a></li>
+                              <li data-name="航头镇" data-value="51832" class=""><a href="#none">航头镇</a></li>
+                              <li data-name="万祥镇" data-value="51833" class=""><a href="#none">万祥镇</a></li>
+                              <li data-name="老港镇" data-value="51834" class=""><a href="#none">老港镇</a></li>
+                            </div>
+                            <div data-tab="item"  style="display: none;">请选择</div>
+                          </div>
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="store-prompt"></div>
+              <div class="J-promise-icon promise-icon fl promise-icon-more">
+                <div class="title fl">支持</div>
+                <div class="icon-list fl">
+                  <ul>
+                  </ul>
+                  <span class="clr"></span> </div>
+              </div>
+              <div class="J-dcashDesc dcashDesc fl"></div>
+            </div>
+          </div>
+        </div>
+        <div class="select"> <span class="dt">请选择：</span>
+          <ul>
+            <li> <span>移动版</span> <i class="allbg"></i> </li>
+            <li> <span>联通版</span> <i class="allbg"></i> </li>
+            <li class="selected"> <span>电信版</span> <i class="allbg"></i> </li>
+            <li> <span>全网通版</span> <i class="allbg"></i> </li>
+          </ul>
+        </div>
+        <div class="goods-Num"> <span class="dt">数量：</span> <a class="jian cur" href="javascript:void(0);"></a>
+          <input type="text" value="1">
+          <a class="jia" href="javascript:void(0);"></a> </div>
+        <div class="btn-group"> <a class="btn-sku btn-buy-now" href="javascript:">立即购买</a> <a class="xbtn_cart btn-sku" href="javascript:"><i class="allbg"></i>加入购物车</a> <a class="xbtn_sc btn-sku" href="/">收藏</a> </div>
+        <div class="promise clear">该商品支持优惠券</div>
+      </div>
+    </div>
+    <div class="pro_detail clearfix">
+      <div class="pro_description">
+        <div class="pro_tab_nav">
+          <ul id="myTab" class="nav nav-tabs">
+            <li class="active"> <a href="#introduce" data-toggle="tab">产品详情</a> </li>
+            <li> <a href="#parameters" data-toggle="tab">规格参数</a> </li>
+            <li> <a href="#comment" data-toggle="tab">商品评价（0）</a> </li>
+          </ul>
+        </div>
+        <div id="myTabContent"  class="pro_tab_con tab-content">
+          <div class="tab_con tab-pane in active" id="introduce">
+            <div class="tab_con_img"> <img src="../WebResources/Images/shopping/1.png" alt="" width="750px" height="400px"> </div>
+            <div class="tab_con_img"> <img src="../WebResources/Images/shopping/1.png" alt="" width="750px" height="400px"> </div>
+            <div class="tab_con_img"> <img src="../WebResources/Images/shopping/1.png" alt="" width="750px" height="400px"> </div>
+          </div>
+          <div class="tab_con tab-pane" id="parameters">
+            <table cellpadding="0" cellspacing="0" class="specification">
+              <tbody>
+                <tr>
+                  <td colspan="2" class="title">包装清单</td>
+                </tr>
+                <tr>
+                  <td class="name">包装清单</td>
+                  <td class="desc">iPhone 6*1;具有线控功能和麦克风的 Apple EarPods*1；Lightning to USB 连接线*1；Micro USB 转 Lightning接头；USB 电源适配器*1；保修卡*1；资料</td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" class="specification">
+              <tbody>
+                <tr>
+                  <td colspan="2" class="title">基本参数</td>
+                </tr>
+                <tr>
+                  <td class="name">品牌</td>
+                  <td class="desc">Apple/苹果</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">规格参数</td>
+                </tr>
+                <tr>
+                  <td class="name">苹果机型</td>
+                  <td class="desc">iPhone 6</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">基本参数</td>
+                </tr>
+                <tr>
+                  <td class="name">型号</td>
+                  <td class="desc">iPhone 6</td>
+                </tr>
+                <tr>
+                  <td class="name">颜色</td>
+                  <td class="desc">金色</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">规格参数</td>
+                </tr>
+                <tr>
+                  <td class="name">机身存储</td>
+                  <td class="desc">16G</td>
+                </tr>
+                <tr>
+                  <td class="name">制式</td>
+                  <td class="desc">4.7吋全网通</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">拍摄功能</td>
+                </tr>
+                <tr>
+                  <td class="name">主摄像头像素</td>
+                  <td class="desc">800万</td>
+                </tr>
+                <tr>
+                  <td class="name">副摄像头像素</td>
+                  <td class="desc">120万</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">显示参数</td>
+                </tr>
+                <tr>
+                  <td class="name">屏幕尺寸</td>
+                  <td class="desc">4.7英寸</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">基本参数</td>
+                </tr>
+                <tr>
+                  <td class="name">操作系统</td>
+                  <td class="desc">苹果iOS</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">存储参数</td>
+                </tr>
+                <tr>
+                  <td class="name">机身存储</td>
+                  <td class="desc">16G</td>
+                </tr>
+                <tr>
+                  <td class="name">运行内存RAM</td>
+                  <td class="desc">1G</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">高级功能</td>
+                </tr>
+                <tr>
+                  <td class="name">高级功能</td>
+                  <td class="desc">WIFI,GPS,蓝牙技术,闪光灯,重力感应,光线传感,距离传感,其它</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">处理器</td>
+                </tr>
+                <tr>
+                  <td class="name">CPU核心数</td>
+                  <td class="desc">无</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">其他参数</td>
+                </tr>
+                <tr>
+                  <td class="name">耳机接口</td>
+                  <td class="desc">3.5MM</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">基本参数</td>
+                </tr>
+                <tr>
+                  <td class="name">是否智能机</td>
+                  <td class="desc">智能机</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">网络参数</td>
+                </tr>
+                <tr>
+                  <td class="name">适用网络制式</td>
+                  <td class="desc">4G(TD-LTE),4G(FDD-LTE),移动3G(TD-SCDMA),电信3G(CDMA2000),联通3G(WCDMA),联通2G/移动2G(GSM),电信2G(CDMA),电信4G(FDD-LTE)</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">规格参数</td>
+                </tr>
+                <tr>
+                  <td class="name">卡模类型</td>
+                  <td class="desc">单卡多模</td>
+                </tr>
+                <tr>
+                  <td class="name">是否苹果专用</td>
+                  <td class="desc">是</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">基本参数</td>
+                </tr>
+                <tr>
+                  <td class="name">色系</td>
+                  <td class="desc">金色</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">存储参数</td>
+                </tr>
+                <tr>
+                  <td class="name">最大储存扩展</td>
+                  <td class="desc">不支持</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">其他参数</td>
+                </tr>
+                <tr>
+                  <td class="name">SIM卡类型</td>
+                  <td class="desc">小卡(nano-SIM)</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">基本参数</td>
+                </tr>
+                <tr>
+                  <td class="name">外观设计</td>
+                  <td class="desc">直板</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">显示参数</td>
+                </tr>
+                <tr>
+                  <td class="name">主屏分辨率</td>
+                  <td class="desc">1334*750</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">存储参数</td>
+                </tr>
+                <tr>
+                  <td class="name">扩展卡类型</td>
+                  <td class="desc">不支持扩展卡</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">基本参数</td>
+                </tr>
+                <tr>
+                  <td class="name">上市时间</td>
+                  <td class="desc">2014年</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">规格参数</td>
+                </tr>
+                <tr>
+                  <td class="name">版本</td>
+                  <td class="desc">国行</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">处理器</td>
+                </tr>
+                <tr>
+                  <td class="name">CPU型号描述</td>
+                  <td class="desc">配备 64 位架构的 A8 芯片，M8 运动协处理器</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">拍摄功能</td>
+                </tr>
+                <tr>
+                  <td class="name">机身闪光灯描述</td>
+                  <td class="desc">True Tone 闪光灯</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">其他参数</td>
+                </tr>
+                <tr>
+                  <td class="name">产品尺寸</td>
+                  <td class="desc">138.1*67.0*6.9（mm）</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">网络参数</td>
+                </tr>
+                <tr>
+                  <td class="name">网络模式</td>
+                  <td class="desc">FDD-LTE/TD-LTE/WCDMA/TD-SCDMA/CDMA2000/GSM/CDMA</td>
+                </tr>
+                <tr>
+                  <td class="name">数据业务</td>
+                  <td class="desc">移动4G(TD-LTE)/联通4G(FDD-LTE)/电信4G(FDD-LTE)；移动3G(TD-SCDMA)/联通3G(WCDMA)/电信3G（CDMA2000）；移动2G/联通2G(GSM)/电信2G(CDMA)</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">其他参数</td>
+                </tr>
+                <tr>
+                  <td class="name">电池更换</td>
+                  <td class="desc">不支持</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title">拍摄功能</td>
+                </tr>
+                <tr>
+                  <td class="name">视频拍摄</td>
+                  <td class="desc">支持</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="tab_con tab-pane" id="comment">3</div>
+        </div>
+      </div>
+      <div class="pro_hotList">
+        <div class="list_head">
+          <div class="list_tit">为您推荐</div>
+        </div>
+        <div class="list_con">
+          <div>
+            <ul class="list_ul">
+              <li>
+                <div>
+                  <div class="list_img"> <a href="/"> <img src="../WebResources/Images/shopping/compare1.jpg" alt=""> </a> </div>
+                  <div class="list_info">
+                    <p class="list_info_text"> <a href="/">Apple iPhone 6s (A1700) 16G 玫瑰金色 移动联通电信4G手机</a> </p>
+                    <p class="list_info_price"> <span>￥5288</span> </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="list_img"> <a href="/"> <img src="../WebResources/Images/shopping/compare1.jpg" alt=""> </a> </div>
+                  <div class="list_info">
+                    <p class="list_info_text"> <a href="/">Apple iPhone 6s (A1700) 16G 玫瑰金色 移动联通电信4G手机</a> </p>
+                    <p class="list_info_price"> <span>￥5288</span> </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="list_img"> <a href="/"> <img src="../WebResources/Images/shopping/compare1.jpg" alt=""> </a> </div>
+                  <div class="list_info">
+                    <p class="list_info_text"> <a href="/">Apple iPhone 6s (A1700) 16G 玫瑰金色 移动联通电信4G手机</a> </p>
+                    <p class="list_info_price"> <span>￥5288</span> </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="list_img"> <a href="/"> <img src="../WebResources/Images/shopping/compare1.jpg" alt=""> </a> </div>
+                  <div class="list_info">
+                    <p class="list_info_text"> <a href="/">Apple iPhone 6s (A1700) 16G 玫瑰金色 移动联通电信4G手机</a> </p>
+                    <p class="list_info_price"> <span>￥5288</span> </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="list_img"> <a href="/"> <img src="../WebResources/Images/shopping/compare1.jpg" alt=""> </a> </div>
+                  <div class="list_info">
+                    <p class="list_info_text"> <a href="/">Apple iPhone 6s (A1700) 16G 玫瑰金色 移动联通电信4G手机</a> </p>
+                    <p class="list_info_price"> <span>￥5288</span> </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="rightcdBox">
+        <div class="sxBox bgccc">
+          <ul>
+            <li><a class="cur">全部已购评价(0条) </a></li>
+            <li><a href="javascript:;">好评(0条)</a></li>
+            <li><a href="javascript:;">中评(0条)</a></li>
+            <li><a href="javascript:;">差评(0条)</a></li>
+          </ul>
+        </div>
+        <div class="productxBox">
+          <div class="comments-item">
+            <div class="com-item-main clearfix">
+              <div class="column"> <span class="column_star"><b style="width: 80%;"></b></span> </div>
+              <div class="column">
+                <div class="p-comment">评价内容：非常轻巧，遮雨和防晒两相宜，全自动真的很方便！</div>
+                <div class="p-name">会员：roy  发表日期：2012年07月23日</div>
+              </div>
+              <div class="comment-replylist">
+                <div class="p-main">商城回复：非常轻巧，遮雨和防晒两相宜，全自动真的很方便！</div>
+                <div class="p-side"> 发表日期：2012年07月23日</div>
+              </div>
+            </div>
+            <div class="com-item-main clearfix">
+              <div class="column"> <span class="column_star"><b style="width: 80%;"></b></span> </div>
+              <div class="column">
+                <div class="p-comment">评价内容：非常轻巧，遮雨和防晒两相宜，全自动真的很方便！</div>
+                <div class="p-name">会员：roy  发表日期：2012年07月23日</div>
+              </div>
+              <div class="comment-replylist">
+                <div class="p-main">商城回复：非常轻巧，遮雨和防晒两相宜，全自动真的很方便！</div>
+                <div class="p-side"> 发表日期：2012年07月23日</div>
+              </div>
+            </div>
+          </div>
+          <div class="plBox"> <a class="wypl" href="/">我要评论</a><a class="" href="/">查看全部评论</a> </div>
+        </div>
+        <div class="sxBox bgccc">
+          <ul>
+            <li><a class="cur">全部购买咨询(0条)</a></li>
+            <li><a href="javascript:;">商品咨询(0条) </a></li>
+            <li><a href="javascript:;">库存配送(0条) </a></li>
+            <li><a href="javascript:;">支付(0条)</a></li>
+            <li><a href="javascript:;">发票保修(0条)</a></li>
+          </ul>
+        </div>
+        <div class="productxBox">
+          <div class="comments-item">
+            <div class="com-item-main clearfix">
+              <div class="column">
+                <div class="p-comment">评价内容：非常轻巧，遮雨和防晒两相宜，全自动真的很方便！</div>
+                <div class="p-name">会员：roy  发表日期：2012年07月23日</div>
+              </div>
+              <div class="comment-replylist">
+                <div class="p-main">商城回复：非常轻巧，遮雨和防晒两相宜，全自动真的很方便！</div>
+                <div class="p-side"> 发表日期：2012年07月23日</div>
+              </div>
+              <div class="column">
+                <div class="p-comment">评价内容：非常轻巧，遮雨和防晒两相宜，全自动真的很方便！</div>
+                <div class="p-name">会员：roy  发表日期：2012年07月23日</div>
+              </div>
+            </div>
+          </div>
+          <div class="plBox"> <a class="wypl" href="/">我要评论</a><a class="" href="/">查看全部评论</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--content-->
+<div class="footer">
+  <div class="w-1200">
+    <div class="footer1 clearfix">
+      <div class="h_1"> <i class="allbg"></i>
+        <dl>
+          <dt>购物指南</dt>
+          <dd><a href="#">新用户注册</a> </dd>
+          <dd><a href="#">购物流程</a> </dd>
+          <dd><a href="#">订单状态</a> </dd>
+          <dd><a href="#">优惠券使用</a> </dd>
+        </dl>
+      </div>
+      <div class="h_2"> <i class="allbg"></i>
+        <dl>
+          <dt>配送方式</dt>
+          <dd><a href="#">配送时间和范围</a> </dd>
+          <dd><a href="#">签收注意事项</a> </dd>
+          <dd><a href="#">配送常见问题</a> </dd>
+        </dl>
+      </div>
+      <div class="h_3"> <i class="allbg"></i>
+        <dl>
+          <dt>支付方式</dt>
+          <dd><a href="#">哈尔冰银行信用卡支付</a> </dd>
+          <dd><a href="#">发票制度</a> </dd>
+        </dl>
+      </div>
+      <div class="h_4"> <i class="allbg"></i>
+        <dl>
+          <dt>售后服务</dt>
+          <dd><a href="#">退换货政策</a> </dd>
+          <dd><a href="#">退换货说明</a> </dd>
+          <dd><a href="#">退换货常见问题</a> </dd>
+        </dl>
+      </div>
+      <div class="h_5"> <i class="allbg"></i>
+        <dl>
+          <dt>客户中心</dt>
+          <dd><a href="#">联系客服</a> </dd>
+          <dd><a href="#">常见问题</a> </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <div class="w">
+    <div class="footer-2016">
+      <div class="links"><a href="/">关于我们</a>|<a href="/">市场合作</a>|<a href="/">品牌招商</a>|<a href="/">客户中心</a></div>
+    </div>
+    <p class="copyright">哈尔冰银行声明：哈尔冰银行信用卡商城所提供商品或服务相关信息均由第三方供应商提供，哈尔冰银行为相关信息提供<br>
+      链接和支付结算服务，交易中遇到的问题哈尔冰银行将积极协助您与运营商及供货商协调解决。<br>
+      版权所有 2014 哈尔冰银行版权所有  沪ICP备05022859号</p>
+  </div>
+</div>
+<script src="../WebResources/bootstrap-3.3.6-dist/js/jquery-1.9.1.min.js"></script> 
+<script src="../WebResources/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script> 
+<script src="../WebResources/JS/shopping/layout.js"></script> 
+<script src="../WebResources/JS/shopping/jquery.jcarousel.min.js"></script> 
+<script>
+         $(function(){
+            
+             var num = $(".goods-Num").children("input").val();
+             $(".jian").click(function(){
+                 if(num == 1){
+                     $(this).addClass("cur");
+                 } else {
+                     num = num - 1;
+                     $(this).parent().children("input").val(num);
+                     if(num == 1){
+                         $(this).addClass("cur");
+                     }
+                 }
+             });
+             $(".jia").click(function(){
+                 $(".goods-Num>.jian").removeClass("cur");
+                 num = num - 0;
+                 num = num + 1;
+                 $(this).parent().children("input").val(num);
+             });
+             $('.jqzoom').jqzoom({
+                 zoomType: 'standard',
+                 lens:true,
+                 preloadImages: false,
+                 alwaysOn:false
+             });
+             $('.jcarousel')
+                 .jcarousel({
+                     // Core configuration goes here
+                 });
+
+             $('.slider-prev').jcarouselControl({
+
+                 target: '-=1'
+             });
+
+             $('.slider-next').jcarouselControl({
+                 target: '+=1'
+             });
+             //set up control for the navigation
+             $('.slider-prev')
+                 .on('jcarouselcontrol:inactive', function() {
+                     $(this).addClass('dis');
+                 })
+                 .on('jcarouselcontrol:active', function() {
+                     $(this).removeClass('dis');
+                 });
+
+             $('.slider-next')
+                 .on('jcarouselcontrol:inactive', function() {
+                     $(this).addClass('dis');
+                 })
+                 .on('jcarouselcontrol:active', function() {
+                     $(this).removeClass('dis');
+                 });
+
+         });
+        </script>
+</body>
+</html>

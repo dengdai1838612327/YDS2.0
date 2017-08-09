@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>新版哈尔冰银行</title>
+<link rel="stylesheet"  href="../WebResources/Css/shopping/common.css">
+<link rel="stylesheet"  href="../WebResources/Css/shopping/layout.css">
+<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.6-dist/css/bootstrap.min.css">
+</head>
+<body>
+<!--头部-->
+<div class="toolbar">
+  <div class="w-1200 clearfix">
+    <div class="link-user">您好，欢迎来到哈尔冰银行信用卡商城</div>
+    <nav>
+      <ul class="clearfix">
+        <li class="fore1"><a href="#">注册</a><a href="#">登陆</a></li>
+        <li class="li-bd">|</li>
+        <li> <a href="#">我的订单</a> </li>
+        <li class="li-bd">|</li>
+        <li><a href="#">会员中心</a></li>
+        <li class="li-bd">|</li>
+        <li class="fore2 fore3">
+          <div class="dropmenu-hd"><a href="/" target="_blank" class="dropmenu-tit">客户服务</a> <i class="arrow"></i></div>
+          <div  class="dorpdown-layer hide">
+            <div class="dd-spacer"></div>
+            <div class="otherlist"> <a href="/">购物流程</a> <a href="/">帮助中心</a> <a class="last" href="/">客服热线：400-921-6828</a> </div>
+          </div>
+        </li>
+        <li class="li-bd">|</li>
+        <li><a href="#">哈尔冰银行信用卡官网</a></li>
+        <li class="li-bd">|</li>
+        <li><a href="#">收藏本站</a></li>
+        <li class="li-bd">|</li>
+        <li class="fore4" >
+          <div class="ewm-2016"><a href="/" class="allbg"></a></div>
+          <div  class=" layer-ewm hide">
+            <div class="dd-spacer2"></div>
+            <div class="ewm"><img src="../WebResources/Images/shopping/ewm2.jpg" width="200" height="112"></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<!--ic_toolbar-->
+
+<div class="header">
+  <div class="w-1200 clearfix">
+    <div class="logo"><a href="#"><img src="../WebResources/Images/shopping/logo.png" width="200" height="70"></a> </div>
+    <div class="row-search">
+      <ul class="clearfix">
+        <li class="cur"><a href="###">购物</a></li>
+        <li><a href="###">生活</a></li>
+      </ul>
+      <div class="col-lg-12">
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+          <button class="btn btn-default" type="button"> 搜索 </button>
+          </span> </div>
+        <!-- /input-group -->
+        <div class="keyword"><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a></div>
+      </div>
+      <!-- /.col-lg-6 --> 
+    </div>
+    <!-- /.row-search -->
+    
+    <div class="h-cart"> <i class="ci-count">0</i> <i class=" allbg iconfont"></i> <a target="_blank" href="###">我的购物车</a> </div>
+  </div>
+</div>
+<!--ic_header-->
+<div class="nav-2016">
+  <div class="w-1200">
+    <div class="dorpdown" id="newdorpdown">
+      <div class="dt" id="dt"> <a href="/" target="_blank">全部商品分类</a> </div>
+    </div>
+    <div class="navitems-2016">
+      <ul class="navitems-group">
+        <li class="cur"><a href="/">商城首页</a></li>
+        <li><a href="/">积分频道</a> </li>
+        <li> <a href="/">分期频道</a> </li>
+        <li> <a href="/">公共缴费</a> </li>
+        <li> <a href="/">本地生活</a> </li>
+        <li> <a href="/">商&nbsp;旅</a> </li>
+        <li> <a href="/">违章缴费</a> </li>
+      </ul>
+    </div>
+    <div class="small-banner"> 
+      <!--公告-->
+      <div class="notice"> <i class="allbg"></i>
+        <div class="t-news" id="t-news"> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延1</a> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延2</a> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延3</a> </div>
+        <script type="text/javascript">
+                var box = document.getElementById("t-news"), can = true;
+                box.innerHTML += box.innerHTML;
+                box.onmouseover = function () { can = false };
+                box.onmouseout = function () { can = true };
+                new function () {
+                    var stop = box.scrollTop % 24 == 0 && !can;
+                    if (!stop) box.scrollTop == parseInt(box.scrollHeight / 2) ? box.scrollTop = 0 : box.scrollTop++;
+                    setTimeout(arguments.callee, box.scrollTop % 24 ? 10 : 2000);
+                };
+            </script> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hrb-main">
+  <div class="w-1200 clearfix">
+    <ol class="breadcrumb">
+      <li><a href="#">首页</a></li>
+      <li><a href="#">电脑&nbsp;通讯&nbsp;数码</a></li>
+      <li class="active">订单提交</li>
+    </ol>
+    <div class="orderSub">
+      <div class="orderSub-info"> <span class="tit">填写核对订单信息</span>
+        <div class="consignee-info address_main">
+          <div class="title">
+            <h3>收货人信息</h3>
+          </div>
+          <div class="info-list pd20">
+            <ul>
+              <li class="info-list-li">
+                <input type="radio" name="addr-radio" checked>
+                <span class="addr-name">我家</span> <span class="addr-province">上海</span> <span class="addr-city">上海市</span> <span class="addr-detail">浦东新区新金桥路28号新金侨大厦10楼</span> <span class="consignee-name">名字</span> <span class="consignee-tel">13712345678</span> <a class="edit" href="#addr-edit" data-toggle="modal" data-target="#addr-edit">编辑</a>
+                <div class="modal fade" id="addr-edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h5 class="modal-title" id="myModalLabel">编辑收货地址</h5>
+                      </div>
+                      <div class="modal-body">
+                        <form action="" class="addr-form">
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="address-name"><em>*</em>地址名称：</label>
+                              <input id="address-name" type="text">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="user-name"><em>*</em>收货人姓名：</label>
+                              <input type="text" id="user-name">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="province"><em>*</em>收货人省份：</label>
+                              <div class="province-input">
+                                <input type="text" class="province" value="省">
+                                <i class="allbg"></i>
+                                <div class="province-list" style="display: none;">
+                                  <ul>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="province-input province2">
+                                <input type="text" class="province" value="市">
+                                <i class="allbg"></i>
+                                <div class="province-list" style="display: none;">
+                                  <ul>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="province-input">
+                                <input type="text" class="province" value="区">
+                                <i class="allbg"></i>
+                                <div class="province-list" style="display: block;">
+                                  <ul>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="detail-addr"><em>*</em>详细地址：</label>
+                              <input type="text" id="detail-addr">
+                            </div>
+                          </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="phone-number"><em>*</em>手机号码：</label>
+                              <input type="text" id="phone-number">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="tel-number">固定电话：</label>
+                              <input type="text" id="tel-number">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="postcodes">邮政编码：</label>
+                              <input type="text" id="postcodes">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">确认收货地址</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="del" href="/">删除</a> </li>
+              <li class="info-list-li">
+                <input type="radio" name="addr-radio">
+                <span class="addr-name">我家</span> <span class="addr-province">上海</span> <span class="addr-city">上海市</span> <span class="addr-detail">浦东新区新金桥路28号新金侨大厦10楼</span> <span class="consignee-name">名字</span> <span class="consignee-tel">13712345678</span> <a class="edit" href="#addr-edit" data-toggle="modal" data-target="#addr-edit">编辑</a>
+                <div class="modal fade" id="addr-edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h5 class="modal-title" id="myModalLabel">编辑收货地址</h5>
+                      </div>
+                      <div class="modal-body">
+                        <form action="" class="addr-form">
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="address-name"><em>*</em>地址名称：</label>
+                              <input id="address-name" type="text">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="user-name"><em>*</em>收货人姓名：</label>
+                              <input type="text" id="user-name">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="province"><em>*</em>收货人省份：</label>
+                              <div class="province-input">
+                                <input type="text" class="province" value="省">
+                                <i class="allbg"></i>
+                                <div class="province-list" style="display: none;">
+                                  <ul>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="province-input province2">
+                                <input type="text" class="province" value="市">
+                                <i class="allbg"></i>
+                                <div class="province-list" style="display: none;">
+                                  <ul>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="province-input">
+                                <input type="text" class="province" value="区">
+                                <i class="allbg"></i>
+                                <div class="province-list" style="display: block;">
+                                  <ul>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                    <li><a href="/">上海</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="detail-addr"><em>*</em>详细地址：</label>
+                              <input type="text" id="detail-addr">
+                            </div>
+                          </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="phone-number"><em>*</em>手机号码：</label>
+                              <input type="text" id="phone-number">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="tel-number">固定电话：</label>
+                              <input type="text" id="tel-number">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                          <div class="addr-list">
+                            <div class="fl">
+                              <label for="postcodes">邮政编码：</label>
+                              <input type="text" id="postcodes">
+                            </div>
+                            <span class="error">错误！</span> </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">确认收货地址</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="del" href="/">删除</a> </li>
+            </ul>
+            <div class="address_btn">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addAddress"><i class="allbg"></i>新增收货地址</button>
+            </div>
+            <div class="modal fade" id="addAddress" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h5 class="modal-title" id="myModalLabel">新增收货地址</h5>
+                  </div>
+                  <div class="modal-body">
+                    <form action="" class="addr-form">
+                      <div class="addr-list">
+                        <div class="fl">
+                          <label for="address-name"><em>*</em>地址名称：</label>
+                          <input id="address-name" type="text">
+                        </div>
+                        <span class="error">错误！</span> </div>
+                      <div class="addr-list">
+                        <div class="fl">
+                          <label for="user-name"><em>*</em>收货人姓名：</label>
+                          <input type="text" id="user-name">
+                        </div>
+                        <span class="error">错误！</span> </div>
+                      <div class="addr-list">
+                        <div class="fl">
+                          <label for="province"><em>*</em>收货人省份：</label>
+                          <div class="province-input">
+                            <input type="text" class="province" value="省">
+                            <i class="allbg"></i>
+                            <div class="province-list" style="display: none;">
+                              <ul>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="province-input province2">
+                            <input type="text" class="province" value="市">
+                            <i class="allbg"></i>
+                            <div class="province-list" style="display: none;">
+                              <ul>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="province-input">
+                            <input type="text" class="province" value="区">
+                            <i class="allbg"></i>
+                            <div class="province-list" style="display: block;">
+                              <ul>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                                <li><a href="/">上海</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="addr-list">
+                        <div class="fl">
+                          <label for="detail-addr"><em>*</em>详细地址：</label>
+                          <input type="text" id="detail-addr">
+                        </div>
+                      </div>
+                      <div class="addr-list">
+                        <div class="fl">
+                          <label for="phone-number"><em>*</em>手机号码：</label>
+                          <input type="text" id="phone-number">
+                        </div>
+                        <span class="error">错误！</span> </div>
+                      <div class="addr-list">
+                        <div class="fl">
+                          <label for="tel-number">固定电话：</label>
+                          <input type="text" id="tel-number">
+                        </div>
+                        <span class="error">错误！</span> </div>
+                      <div class="addr-list">
+                        <div class="fl">
+                          <label for="postcodes">邮政编码：</label>
+                          <input type="text" id="postcodes">
+                        </div>
+                        <span class="error">错误！</span> </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">确认收货地址</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="payment">
+          <div class="title">
+            <h3>支付方式</h3>
+          </div>
+          <ul class="pd20">
+            <li class="cur">银行卡快捷支付</li>
+          </ul>
+        </div>
+        <div class="inventory">
+          <div class="title">
+            <h3>送货清单</h3>
+            <div class="extra-r"> <a href="###"  class="return-edit ftx-05" >返回修改购物车</a> </div>
+          </div>
+          <div class="step-cont">
+            <div class="shopping-lists">
+              <div class="shopping-list ABTest">
+                <div class="goods-list">
+                  <div class="m-b30">
+                    <div class="goods-tit">
+                      <h4 class="vendor_name_h">商家：京东自营</h4>
+                    </div>
+                    <div class="goods-items">
+                      <div class="goods-item goods-item-extra">
+                        <div class="p-img"> <a target="_blank" href="###"><img src="../WebResources/Images/shopping/100.jpg" width="80" height="80"></a> </div>
+                        <div class="goods-msg">
+                          <div class="goods-msg-gel">
+                            <div class="p-name"> <a href="###" target="_blank"> 小辣椒 红辣椒4A 高配版 4GB+32GB 全网通 黑色 移动联通电信4G手机 双卡双待 </a> </div>
+                            <div class="p-price"> <strong class="jd-price"> ￥ 799.00 </strong> <span class="p-num"> x1 </span> <span class="p-state" skuid="4232151">有货</span> </div>
+                          </div>
+                        </div>
+                        <div class="clr"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-b30">
+                    <div class="goods-tit">
+                      <h4 class="vendor_name_h">商家：山姆会员商店官方旗舰店</h4>
+                    </div>
+                    <div class="goods-items">
+                      <div class="goods-item goods-item-extra">
+                        <div class="p-img"> <a target="_blank" href="###"><img src="../WebResources/Images/shopping/100.jpg" width="80" height="80"></a> </div>
+                        <div class="goods-msg">
+                          <div class="goods-msg-gel">
+                            <div class="p-name"> <a href="###" target="_blank"> 小辣椒 红辣椒4A 高配版 4GB+32GB 全网通 黑色 移动联通电信4G手机 双卡双待 </a> </div>
+                            <div class="p-price"> <strong class="jd-price"> ￥ 799.00 </strong> <span class="p-num"> x1 </span> <span class="p-state" skuid="4232151">有货</span> </div>
+                          </div>
+                        </div>
+                        <div class="clr"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dis-modes">
+                  <div class="mode-item mode-tab">
+                    <div class="mode-item-tit clearfix">
+                      <h4>配送方式</h4>
+                    </div>
+                    <div class="mode-tab-nav">
+                      <ul class="clearfix">
+                        <li class="mode-tab-item curr"> <span class="m-txt">京东快递</span><b class="allbg"></b> </li>
+                      </ul>
+                    </div>
+                    <div class="mode-tab-con  ui-switchable-panel-selected">
+                      <ul class="mode-list">
+                        <li id="shipment_times" class="delivery-info-li-none-border">
+                          <div class="fore1"><span class="mode-label ftx-03">配送时间：</span>
+                            <div class="mode-infor">工作日、双休日与节假日均可送货</div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mode-item mode-tab">
+                    <div class="mode-item-tit clearfix">
+                      <h4>配送方式</h4>
+                      <div class="extral-r"><a class="cor-goods" href="#none"><i class="allbg"></i>对应大件商品</a></div>
+                    </div>
+                    <div class="mode-tab-nav">
+                      <ul class="clearfix">
+                        <li class="mode-tab-item curr"> <span class="m-txt"> 京东快递<i class="qmark-icon qmark-tip"></i> </span><b class="allbg"></b> </li>
+                      </ul>
+                    </div>
+                    <div class="mode-tab-con">
+                      <ul class="mode-list">
+                        <li class="delivery-info-li-none-border">
+                          <div class="fore1"><span class="mode-label ftx-03">送达时间：</span>
+                            <div class="mode-infor">预计&nbsp;7月27日[周四]&nbsp;送达</div>
+                          </div>
+                          <div class="fore2"><a href="#date-sel-modal" class="ftx-05" data-toggle="modal" data-target="#date-sel-modal">修改</a></div>
+                        </li>
+                        <li>
+                          <div class="fore1"> <span class="mode-label ftx-03">安装时间：</span>
+                            <div class="mode-infor">7月28日&nbsp;周五<br>
+                              <span class="ftx-03">只针对京东上门安装商品</span></div>
+                          </div>
+                          <div class="fore2" ><a href="#none" class="ftx-05 edit-install-time">修改</a></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="shopping-list ABTest">
+                <div class="goods-list">
+                  <div class="m-b30">
+                    <div class="goods-tit">
+                      <h4 class="vendor_name_h">商家：京东自营</h4>
+                    </div>
+                    <div class="goods-items">
+                      <div class="goods-item goods-item-extra">
+                        <div class="p-img"> <a target="_blank" href="###"><img src="../WebResources/Images/shopping/100.jpg" width="80" height="80"></a> </div>
+                        <div class="goods-msg">
+                          <div class="goods-msg-gel">
+                            <div class="p-name"> <a href="###" target="_blank"> 小辣椒 红辣椒4A 高配版 4GB+32GB 全网通 黑色 移动联通电信4G手机 双卡双待 </a> </div>
+                            <div class="p-price"> <strong class="jd-price"> ￥ 799.00 </strong> <span class="p-num"> x1 </span> <span class="p-state" skuid="4232151">有货</span> </div>
+                          </div>
+                        </div>
+                        <div class="clr"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-b30">
+                    <div class="goods-tit">
+                      <h4 class="vendor_name_h">商家：山姆会员商店官方旗舰店</h4>
+                    </div>
+                    <div class="goods-items">
+                      <div class="goods-item goods-item-extra">
+                        <div class="p-img"> <a target="_blank" href="###"><img src="../WebResources/Images/shopping/100.jpg" width="80" height="80"></a> </div>
+                        <div class="goods-msg">
+                          <div class="goods-msg-gel">
+                            <div class="p-name"> <a href="###" target="_blank"> 小辣椒 红辣椒4A 高配版 4GB+32GB 全网通 黑色 移动联通电信4G手机 双卡双待 </a> </div>
+                            <div class="p-price"> <strong class="jd-price"> ￥ 799.00 </strong> <span class="p-num"> x1 </span> <span class="p-state" skuid="4232151">有货</span> </div>
+                          </div>
+                        </div>
+                        <div class="clr"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dis-modes">
+                  <div class="mode-item mode-tab">
+                    <div class="mode-item-tit clearfix">
+                      <h4>配送方式</h4>
+                    </div>
+                    <div class="mode-tab-nav">
+                      <ul class="clearfix">
+                        <li class="mode-tab-item curr"> <span class="m-txt">京东快递</span><b class="allbg"></b> </li>
+                      </ul>
+                    </div>
+                    <div class="mode-tab-con  ui-switchable-panel-selected">
+                      <ul class="mode-list">
+                        <li id="shipment_times" class="delivery-info-li-none-border">
+                          <div class="fore1"><span class="mode-label ftx-03">配送时间：</span>
+                            <div class="mode-infor">工作日、双休日与节假日均可送货</div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mode-item mode-tab">
+                    <div class="mode-item-tit clearfix">
+                      <h4>配送方式</h4>
+                      <div class="extral-r"><a class="cor-goods" href="#none"><i class="allbg"></i>对应大件商品</a></div>
+                    </div>
+                    <div class="mode-tab-nav">
+                      <ul class="clearfix">
+                        <li class="mode-tab-item curr"> <span class="m-txt"> 京东快递<i class="qmark-icon qmark-tip"></i> </span><b></b> </li>
+                      </ul>
+                    </div>
+                    <div class="mode-tab-con">
+                      <ul class="mode-list">
+                        <li class="delivery-info-li-none-border">
+                          <div class="fore1"><span class="mode-label ftx-03">送达时间：</span>
+                            <div class="mode-infor">预计&nbsp;7月27日[周四]&nbsp;送达</div>
+                          </div>
+                          <div class="fore2"><a href="#none" class="ftx-05">修改</a></div>
+                        </li>
+                        <li>
+                          <div class="fore1"> <span class="mode-label ftx-03">安装时间：</span>
+                            <div class="mode-infor">7月28日&nbsp;周五<br>
+                              <span class="ftx-03">只针对京东上门安装商品</span></div>
+                          </div>
+                          <div class="fore2" ><a href="#none" class="ftx-05 edit-install-time">修改</a></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="receipt">
+          <div class="title">
+            <h3>发票信息</h3>
+          </div>
+          <ul class="pd20 clearfix">
+            <li> 不开发票 </li>
+            <li> <a href="#receipt-modal" data-toggle="modal" data-target="#receipt-modal">修改</a></li>
+          </ul>
+          <p class="p-ts"> <span>1.&nbsp;单个订单超过50元才能开票！</span> <span>2.&nbsp;收到您的开具申请后，如信息核实无误，我们会在订单过了退货期之后的10个工作日为您寄出。 </span> </p>
+        </div>
+        <div class="coupon">
+          <div class="title">
+            <h3>优惠券</h3>
+          </div>
+          <ul class="pd20 clearfix">
+            <li>
+              <input name="" type="text" class="coupon-num">
+              <a href="###">选择</a></li>
+            <li style="display:none;">
+              <input name="" type="text" class="coupon-num">
+              <a href="###">选择</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="order-summary">
+            <div class="statistic fr">
+              <div class="list"> <span><em class="ftx-01">1</em> 件商品，总商品金额：</span> <em class="price">￥199.00</em> </div>
+              <div class="list"> <span>运费：</span> <em class="price"> ￥8.00</em> </div>
+              <div class="list"> <span>优惠券抵扣：</span> <em class="price"> -￥100.00</em> </div>
+            </div>
+            <div class="clr"></div>
+          </div>
+          <div class="trade-foot">
+            <div class="trade-foot-detail-com">
+              <div class="fc-price-info"> <span class="price-tit">应付总额：</span> <span class="price-num">￥6488.00</span> </div>
+              <div class="fc-consignee-info"> <span class="mr20">寄送至： 上海 浦东新区 高桥镇   海春路150弄51号102</span> <span>收货人：严沛 139****7011</span> </div>
+            </div>
+            <div class="group">
+              <div class="checkout-buttons">
+                <div class="sticky-wrap">
+                  <div class="inner">
+                    <button type="submit" class="checkout-submit"> 提交订单</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="w-1200">
+    <div class="footer1 clearfix">
+      <div class="h_1"> <i class="allbg"></i>
+        <dl>
+          <dt>购物指南</dt>
+          <dd><a href="#">新用户注册</a> </dd>
+          <dd><a href="#">购物流程</a> </dd>
+          <dd><a href="#">订单状态</a> </dd>
+          <dd><a href="#">优惠券使用</a> </dd>
+        </dl>
+      </div>
+      <div class="h_2"> <i class="allbg"></i>
+        <dl>
+          <dt>配送方式</dt>
+          <dd><a href="#">配送时间和范围</a> </dd>
+          <dd><a href="#">签收注意事项</a> </dd>
+          <dd><a href="#">配送常见问题</a> </dd>
+        </dl>
+      </div>
+      <div class="h_3"> <i class="allbg"></i>
+        <dl>
+          <dt>支付方式</dt>
+          <dd><a href="#">哈尔冰银行信用卡支付</a> </dd>
+          <dd><a href="#">发票制度</a> </dd>
+        </dl>
+      </div>
+      <div class="h_4"> <i class="allbg"></i>
+        <dl>
+          <dt>售后服务</dt>
+          <dd><a href="#">退换货政策</a> </dd>
+          <dd><a href="#">退换货说明</a> </dd>
+          <dd><a href="#">退换货常见问题</a> </dd>
+        </dl>
+      </div>
+      <div class="h_5"> <i class="allbg"></i>
+        <dl>
+          <dt>客户中心</dt>
+          <dd><a href="#">联系客服</a> </dd>
+          <dd><a href="#">常见问题</a> </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <div class="w">
+    <div class="footer-2016">
+      <div class="links"><a href="/">关于我们</a>|<a href="/">市场合作</a>|<a href="/">品牌招商</a>|<a href="/">客户中心</a></div>
+    </div>
+    <p class="copyright">哈尔冰银行声明：哈尔冰银行信用卡商城所提供商品或服务相关信息均由第三方供应商提供，哈尔冰银行为相关信息提供<br>
+      链接和支付结算服务，交易中遇到的问题哈尔冰银行将积极协助您与运营商及供货商协调解决。<br>
+      版权所有 2014 哈尔冰银行版权所有  沪ICP备05022859号</p>
+  </div>
+</div>
+<!--content-->
+<div class="modal fade date-sel-modal" id="date-sel-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h5 class="modal-title">配送时间</h5>
+      </div>
+      <div class="modal-body">
+        <table class="date-sel">
+          <tbody>
+            <tr>
+              <td class="on"><span>7月25日</span> <span>星期二</span></td>
+              <td><span>7月26日</span> <span>星期三</span></td>
+              <td><span>7月27日</span> <span>星期四</span></td>
+              <td><span>7月28日</span> <span>星期五</span></td>
+              <td><span>7月29日</span> <span>星期六</span></td>
+            </tr>
+            <tr>
+              <td><span>7月30日</span> <span>星期日</span></td>
+              <td><span>7月31日</span> <span>星期一</span></td>
+              <td><span>8月0日</span> <span>星期二</span></td>
+              <td><span>8月2日</span> <span>星期三</span></td>
+              <td><span>8月3日</span> <span>星期四</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="tips">
+          <p class="tips-tit">提示：</p>
+          <p class="tips-con">1、你选择的时间可能会因库存不足等因素导致订单延迟，请您谅解！</p>
+          <p class="tips-con">2、我们会在您选定提货日期的前一天处理您的订单，在此之前您的订单处于暂停状态</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade receipt-modal" id="receipt-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h5 class="modal-title">发票信息修改</h5>
+      </div>
+      <div class="modal-body">
+        <div class="receipt-sel"> <span class="sel on">普通发票</span> <span class="sel">不开发票</span> </div>
+        <div class="receipt-detail">
+          <div class="type-sel">
+            <label class="fl">发票抬头：</label>
+            <p class="fl"> <span class="sel">个人</span> <span class="sel on">公司</span> </p>
+          </div>
+          <div class="name">
+            <label>公司名称：</label>
+            <input type="text">
+          </div>
+          <div class="receipt-con">
+            <label>发票内容：</label>
+            <span class="sel on">明细</span> </div>
+          <div class="receipt-tips">
+            <p>1、可开发票金额仅限于用户使用现金方式支付的订单费用。</p>
+            <p>2、订单金额开票，至少选择一个订单，选择的行程总金额不能超过可开票额度。按金额爱票，单张开票金额需要大于50元。</p>
+            <p>3、单张发票金额大于200元时免费为您寄出，小于200元时您需要自己承担快递费用（到付）。</p>
+            <p>4、收到您的开具申请后，如信息核实无误，我们会在订单过了退货期之后的10个工作日为您寄出。</p>
+            <p>5、如果当前订单存在退货/返修，则在完成后退货/返修之后的10个工作日内为您寄出。</p>
+            <p>6、发票金额不含优惠券、积分支付部分。</p>
+            <p>7、第三方商家销售的商品发票由商家开具、寄出，发票内容由商家决定。</p>
+            <p>8、使用积分抵扣之后现金部分满足开票条件的，发票信息只开具商品的“现金支付金额”，发票中的商品明细清单根据“商品金额”的比例将现金支付金额分摊到商品明细清单中。</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../bootstrap-3.3.6-dist/js/jquery-1.9.1.min.js"></script> 
+<script src="../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script> 
+<script src="../WebResources/JS/shopping/layout.js"></script>
+</body>
+</html>
