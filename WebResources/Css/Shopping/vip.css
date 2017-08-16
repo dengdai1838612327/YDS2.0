@@ -1411,3 +1411,6 @@
 	margin: 0;
 	width: 20px;
 }
+.mrem{ background:url(../../Images/shopping/mricon.png) 0 0 no-repeat; position:absolute; width:30px; height:20px; left:10px; top:19px;}
+.mrtt{ width:40px;}
+.main .address-table tbody tr .mrtt{ position:relative;}

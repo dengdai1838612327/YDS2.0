@@ -457,6 +457,8 @@ a {
 	line-height: 24px;
 	position: absolute;
 	z-index: 2;
+	margin:0;
+	top:20px;
 }
 .dd-inner h5 a {
 	color: #666;
@@ -466,11 +468,11 @@ a {
 }
 .dd-inner i {
 	color: #999;
-	font: 400 18px/12px consolas;
+	font: 400 22px/12px consolas;
 	height: 14px;
 	position: absolute;
 	right: 14px;
-	top: 14px;
+	top: 26px;
 	width: 10px;
 	z-index: 1;
 }
