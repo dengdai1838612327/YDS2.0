@@ -221,7 +221,8 @@
   <div class="w-1200 clearfix">
     <ol class="breadcrumb">
       <li><a href="#">首页</a></li>
-      <li class="active">会员中心</li>
+      <li><a href="#">会员中心</a></li>
+      <li class="active">购物订单</li>
     </ol>
     <div class="content clearfix">
       <div class="pro-left">
@@ -230,6 +231,7 @@
           <div class="pro-list-dl bd">
             <dl>
               <dt>购物管理</dt>
+              <dd><a href="###">购物订单</a></dd>
               <dd><a href="###">售后管理</a></dd>
               <dd><a href="###">我的优惠券</a></dd>
               <dd><a href="###">个人收藏</a></dd>
@@ -250,13 +252,29 @@
         </div>
       </div>
       <div class="pro-right">
-        <div class="order-list askfor-service">
+        
+        <div class="order-list">
+          <div class="order-head">
+            <div class="tab">
+              <ul>
+                <li class="on">全部</li>
+                <li>待付款</li>
+                <li>待收货</li>
+                <li>待评价</li>
+              </ul>
+            </div>
+            <div class="search">
+              <a href="###">订单回收站</a>
+              <input type="text" placeholder="请输入关键字或订单号">
+              <span class="icon-search"><i class="allbg"></i></span>
+            </div>
+          </div>
           <div class="order-table">
             <div class="table-head">
               <ul>
                 <li class="wp52">商品</li>
-                <li class="wp12">数量</li>
-                <li class="wp12">服务类型</li>
+                <li class="wp12">收件人</li>
+                <li class="wp12">实际支付</li>
                 <li class="wp12">状态</li>
                 <li class="wp12">操作</li>
               </ul>
@@ -264,66 +282,104 @@
             <table>
               <thead>
                 <tr>
-                  <th colspan="5">
+                  <th colspan="4">
                     <span class="time">2017-07-13 19:20:30</span>
                     <span class="order-id"><em>订单编号：</em>1234567890</span>
+                  </th>
+                  <th>
+                    <i class="allbg del"></i>
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td class="goods wp52">
+                  <td class="wp52 goods">
                     <a href="###" class="img"><img src="../WebResources/Images/shopping/tht.gif" width="80" height="80"></a>
                     <div class="goods-name">
                       <a href="###">商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字</a>
-                      <div class="goods-para">
-                        <span>商品参数</span>
-                        <span>商品颜色</span>
-                      </div>
+                      <span class="goods-num">×2</span>
                     </div>
                   </td>
-                  <td class="wp12">×2</td>
-                  <td class="wp12">换货</td>
-                  <td class="wp12">寄送中</td>
+                  <td class="wp12">某某某</td>
+                  <td class="wp12">￥149.00</td>
+                  <td class="wp12 status">
+                    <span>已签收</span>
+                    <a href="###">订单详情</a>
+                  </td>
                   <td class="wp12 handle">
-                    <a href="###">取消</a>
+                    <a href="###" class="orange">确认收货</a>
+                    <a href="###">查看物流</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="4">
+                    <span class="time">2017-07-13 19:20:30</span>
+                    <span class="order-id"><em>订单编号：</em>1234567890</span>
+                  </th>
+                  <th>
+                    <i class="allbg del"></i>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="wp52 goods">
+                    <a href="###" class="img"><img src="../WebResources/Images/shopping/tht.gif" width="80" height="80"></a>
+                    <div class="goods-name">
+                      <a href="###">商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字</a>
+                      <span class="goods-num">×2</span>
+                    </div>
+                  </td>
+                  <td class="wp12" rowspan="3">某某某</td>
+                  <td class="wp12" rowspan="3">￥149.00</td>
+                  <td class="wp12 status" rowspan="3">
+                    <span>已签收</span>
+                    <a href="###">订单详情</a>
+                  </td>
+                  <td class="wp12 handle" rowspan="3">
+                    <a href="###" class="orange">评价</a>
+                    <a href="###">查看物流</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="wp52 goods">
+                    <a href="###" class="img"><img src="../WebResources/Images/shopping/tht.gif" width="80" height="80"></a>
+                    <div class="goods-name">
+                      <a href="###">商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字</a>
+                      <span class="goods-num">×2</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="wp52 goods">
+                    <a href="###" class="img"><img src="../WebResources/Images/shopping/tht.gif" width="80" height="80"></a>
+                    <div class="goods-name">
+                      <a href="###">商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字</a>
+                      <span class="goods-num">×2</span>
+                    </div>
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <div class="service-status">
-          <p>
-            <label>处理结果：</label>
-            <span class="red">通过</span>
-          </p>
-          <p>
-            <label>审核结果：</label>
-            <span class="red">通过</span>
-          </p>
-        </div>
-        <div class="logistics-list">
-          <div class="logistics-head">
-            <h5>用户发货</h5>
-          </div>
-          <div class="logistics-con">
-            <div class="send-form">
-              <p>
-                <label>物流公司</label>
-                <input type="text">
-              </p>
-              <p>
-                <label>物流号</label>
-                <input type="text">
-              </p>
-              <p>
-                <span>以上物流信息填写后均不可修改，请仔细填写</span>
-              </p>
-              <p class="send-form-btn">
-                <input type="button" value="提交">
-              </p>
-            </div>
+        <div class="hrb-turn-page clearfix">
+          <div class="xz-db"> <i class="allbg"></i> </div>
+          <div class="hrb-page">
+            <ul class="pager">
+              <li class="disabled"><a href="#">&laquo;上一页</a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li class=""><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><span>...</span></li>
+              <li><a href="#">下一页&raquo;</a></li>
+            </ul>
           </div>
         </div>
       </div>

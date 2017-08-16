@@ -181,7 +181,7 @@
 	float: left;
 	border: 1px solid #c1d9f0;
 	margin-bottom: 20px;
- *padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 .main .title {
 	height: 40px;
@@ -285,7 +285,7 @@
 	margin-right: 10px;
 }
 .addr-form .addr-list label {
-	width: 85px;
+	width: 100px;
 	height: 30px;
 	line-height: 30px;
 	text-align: right;
@@ -377,9 +377,9 @@
 	text-decoration: none;
 }
 .addr-form .addr-list em {
-	float: left;
 	color: #f00;
 	font-size: 15px;
+	margin-right: 5px;
 }
 .addr-form .addr-list span {
 	color: #f00;
@@ -833,77 +833,77 @@
 	margin: 0;
 }
 /*订单回收站*/
-.order-list table td span{
+.order-list table td span {
 	display: block;
 }
 .order-list thead i.del-back {
-  display: block;
-  float: right;
-  width: 20px;
-  height: 21px;
-  background-position: -364px -27px;
-  cursor: pointer;
-  margin-right: 10px;
+	display: block;
+	float: right;
+	width: 20px;
+	height: 21px;
+	background-position: -364px -27px;
+	cursor: pointer;
+	margin-right: 10px;
 }
-.del-modal .modal-dialog{
-  width: 450px;
-  margin: 200px auto;
+.del-modal .modal-dialog {
+	width: 450px;
+	margin: 200px auto;
 }
-.del-modal .modal-content{
-  border-radius: 0;
+.del-modal .modal-content {
+	border-radius: 0;
 }
-.del-modal .modal-header{
-  height: 35px;
-  line-height: 35px;
-  background-color: #eee;
+.del-modal .modal-header {
+	height: 35px;
+	line-height: 35px;
+	background-color: #eee;
 }
-.del-modal .modal-body p{
-  text-align: center;
+.del-modal .modal-body p {
+	text-align: center;
 }
-.del-modal .modal-body p a{
-  color: #f00;
+.del-modal .modal-body p a {
+	color: #f00;
 }
-.del-modal .modal-footer{
-  text-align: center;
-  border: none;
+.del-modal .modal-footer {
+	text-align: center;
+	border: none;
 }
-.del-modal button{
-  width: 95px;
-  height: 30px;
-  padding: 0;
+.del-modal button {
+	width: 95px;
+	height: 30px;
+	padding: 0;
 }
-.del-modal button.btn-primary{
-  background-color: #f60;
-  border-color: #f60;
+.del-modal button.btn-primary {
+	background-color: #f60;
+	border-color: #f60;
 }
 /*订单详情*/
-.detail-list .table-head{
+.detail-list .table-head {
 	width: 100%;
 	background-color: #eee;
 	height: 35px;
 	line-height: 35px;
 	padding-left: 20px;
 }
-.detail-list .table-head h5{
+.detail-list .table-head h5 {
 	line-height: 35px;
 	margin: 0;
 }
-.detail-list table{
+.detail-list table {
 	width: 100%;
 	border: 1px solid #e5e5e5;
 	margin-bottom: 10px;
 }
-.detail-list table tr td{
+.detail-list table tr td {
 	border: 1px solid #e5e5e5;
 	padding: 7px;
 }
-.detail-list table tr td.tc{
+.detail-list table tr td.tc {
 	text-align: center;
 }
-.detail-list table td em{
+.detail-list table td em {
 	color: #f60;
 }
-.bag-list .table-head{
+.bag-list .table-head {
 	width: 100%;
 	background-color: #fce4d3;
 	height: 35px;
@@ -911,37 +911,37 @@
 	padding: 0 20px;
 	overflow: hidden;
 }
-.bag-list .table-head h5{
+.bag-list .table-head h5 {
 	line-height: 35px;
 	margin: 0;
 	float: left;
 	margin-right: 20px;
 }
-.bag-list .table-head span{
+.bag-list .table-head span {
 	float: left;
 	margin-right: 20px;
 	color: #666;
 }
-.bag-list .table-head span em{
+.bag-list .table-head span em {
 	color: #333;
 }
-.bag-list .table-head a{
+.bag-list .table-head a {
 	float: right;
 	color: #333;
 }
-.bag-list table{
+.bag-list table {
 	width: 100%;
 	border: 1px solid #e5e5e5;
 	margin-bottom: 10px;
 }
-.bag-list table tr th{
+.bag-list table tr th {
 	background-color: #eee;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
 	font-weight: normal;
 }
-.bag-list table tr td{
+.bag-list table tr td {
 	border: 1px solid #e5e5e5;
 	padding: 7px;
 }
@@ -968,43 +968,43 @@
 	color: #666;
 	margin-left: 10px;
 }
-.bag-list table tr td.tc{
+.bag-list table tr td.tc {
 	text-align: center;
 }
-.bag-list table tr td a{
+.bag-list table tr td a {
 	color: #333;
 }
-.bag-list .table-footer{
+.bag-list .table-footer {
 	float: right;
 	margin-bottom: 20px;
 }
-.bag-list .table-footer span em{
+.bag-list .table-footer span em {
 	color: #f60;
 }
 /*物流信息*/
-.logistics-list{
+.logistics-list {
 	clear: both;
 }
-.logistics-list .logistics-head{
+.logistics-list .logistics-head {
 	width: 100%;
 	height: 35px;
 	line-height: 35px;
 	background-color: #eee;
 	padding: 0 20px;
 }
-.logistics-list .logistics-head h5{
+.logistics-list .logistics-head h5 {
 	line-height: 35px;
 	margin: 0;
 }
-.logistics-con{
+.logistics-con {
 	border: 1px solid #e5e5e5;
 	padding: 15px 25px;
 }
-.logistics-con .con-list{
+.logistics-con .con-list {
 	line-height: 30px;
 	overflow: hidden;
 }
-.logistics-con .con-list label{
+.logistics-con .con-list label {
 	float: left;
 	width: 90px;
 	line-height: 30px;
@@ -1013,18 +1013,18 @@
 	color: #333;
 	margin: 0;
 }
-.logistics-con .con-list span{
+.logistics-con .con-list span {
 	float: left;
 }
-.logistics-con .con-list ul{
+.logistics-con .con-list ul {
 	float: left;
 	margin: 0;
 }
-.logistics-con .con-list ul li:last-child{
+.logistics-con .con-list ul li:last-child {
 	color: #f00;
 }
 /*会员中心--优惠券*/
-.coupon-tit{
+.coupon-tit {
 	width: 100%;
 	background-color: #eee;
 	height: 40px;
@@ -1040,52 +1040,56 @@
 	margin: 0;
 	font-size: 16px;
 }
-.coupon-tit .coupon-sel{
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 145px;
+.coupon-sel {
+	overflow: hidden;
 }
-.coupon-sel .drop{
+.coupon-sel .tab ul li {
+	height: 40px;
+	line-height: 40px;
+}
+.coupon-sel .tab ul {
+	border-right: none;
+}
+.coupon-sel .drop {
 	cursor: pointer;
 	padding: 0 20px;
 	line-height: 38px;
 	border: 1px solid #eee;
 }
-.coupon-sel .drop .icon-down{
+.coupon-sel .drop .icon-down {
 	display: inline-block;
 	width: 13px;
 	height: 7px;
 	margin-left: 10px;
 	background: url(../../Images/shopping/arr-close.png) 0 0 no-repeat;
 }
-.coupon-sel .drop .icon-up{
+.coupon-sel .drop .icon-up {
 	display: inline-block;
 	width: 13px;
 	height: 7px;
 	margin-left: 10px;
 }
-.coupon-sel .drop.on .icon-down{
+.coupon-sel .drop.on .icon-down {
 	margin-bottom: 2px;
 	background: url(../../Images/shopping/arr-open.png) 0 0 no-repeat;
 }
-.coupon-sel .drop.on{
+.coupon-sel .drop.on {
 	background-color: #fff;
 	border: 1px solid #eee;
 	border-bottom: none;
 	color: #666;
 }
-.coupon-sel .drop-down{
+.coupon-sel .drop-down {
 	border: 1px solid #eee;
 	border-top: none;
 	background-color: #fff;
 }
-.coupon-sel .drop-down a{
+.coupon-sel .drop-down a {
 	display: block;
 	color: #666;
 	padding-left: 20px;
 }
-.coupon-sel .drop-down a:hover{
+.coupon-sel .drop-down a:hover {
 	text-decoration: none;
 	background-color: #dcdcdc;
 	color: #f60;
@@ -1147,21 +1151,26 @@
 .order-list.askfor-service .wp15 {
 	width: 15%;
 }
-.askfor-service .goods-para{
+.askfor-service .goods-para {
 	float: left;
 }
-.order-list.askfor-service table td .goods-para span{
+.order-list.askfor-service table td .goods-para span {
 	display: inline-block;
 	color: #666;
 	margin-right: 15px;
 }
-.askfor-service .service-type{
+.askfor-service .service-type {
 	line-height: 35px;
-	margin: 40px 0;
-	overflow: hidden;
+	margin: 20px 0;
 }
-.service-type label,
-.service-desc label{
+.service-type:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	height: 0;
+	visibility: hidden
+}
+.service-type label, .service-desc label, .service-stock label {
 	float: left;
 	width: 60px;
 	line-height: 35px;
@@ -1171,11 +1180,11 @@
 	margin-bottom: 0;
 	color: #333;
 }
-.service-type ul{
+.service-type ul {
 	float: left;
 	overflow: hidden;
 }
-.service-type ul li{
+.service-type ul li {
 	float: left;
 	width: 100px;
 	height: 35px;
@@ -1188,20 +1197,20 @@
 	border: 1px solid #eee;
 	color: #666;
 }
-.service-type ul li.on{
+.service-type ul li.on {
 	color: #f60;
 	background-color: #fff;
 	border: 1px solid #f60;
 }
-.askfor-service .service-desc{
+.askfor-service .service-desc {
 	overflow: hidden;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #dbdbdb;
 }
-.service-desc .desc-right{
+.service-desc .desc-right {
 	float: left;
 }
-.service-desc .desc-right textarea{
+.service-desc .desc-right textarea {
 	max-width: 790px;
 	min-width: 790px;
 	max-height: 110px;
@@ -1212,18 +1221,18 @@
 	line-height: 25px;
 	margin-bottom: 20px;
 }
-.desc-right .desc-img ul{
+.desc-right .desc-img ul {
 	overflow: hidden;
 	margin: 0;
 }
-.desc-right .desc-img ul li{
+.desc-right .desc-img ul li {
 	float: left;
 	width: 120px;
 	height: 120px;
 	margin-right: 20px;
 	position: relative;
 }
-.desc-right .desc-img i.del{
+.desc-right .desc-img i.del {
 	display: inline-block;
 	width: 23px;
 	height: 23px;
@@ -1233,10 +1242,10 @@
 	right: 0;
 	top: 0;
 }
-.desc-right .desc-img ul li.camera{
+.desc-right .desc-img ul li.camera {
 	width: 150px;
 }
-.desc-right .desc-img .camera i{
+.desc-right .desc-img .camera i {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1245,15 +1254,15 @@
 	background-position: -377px -409px;
 	cursor: pointer;
 }
-.desc-right .desc-img .camera span{
+.desc-right .desc-img .camera span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
-.service-btn{
-	margin: 30px 0;
+.service-btn {
+	margin: 30px 0 10px;
 }
-.service-btn input{
+.service-btn input {
 	width: 110px;
 	height: 35px;
 	line-height: 35px;
@@ -1267,19 +1276,22 @@
 .order-list .handle a.bold {
 	font-weight: bold;
 }
-.service-status{
+.service-status {
 	margin: 20px 5px;
 }
-.service-status p label{
+.service-status p label {
 	color: #333;
+	float: left;
 	font-size: 14px;
 	font-weight: normal;
 	margin-bottom: 0;
+	margin-right: 5px;
+	vertical-align: top;
 }
-.service-status p span.red{
+.service-status p span.red {
 	color: #f00;
 }
-.send-form p label{
+.send-form p label {
 	width: 60px;
 	line-height: 32px;
 	margin-bottom: 0;
@@ -1288,7 +1300,7 @@
 	color: #333;
 	margin-right: 20px;
 }
-.send-form input[type='text']{
+.send-form input[type='text'] {
 	width: 350px;
 	height: 30px;
 	line-height: 30px;
@@ -1296,11 +1308,11 @@
 	padding-left: 5px;
 	background-color: #eee;
 }
-.send-form p span{
+.send-form p span {
 	display: block;
 	margin-left: 85px;
 }
-.send-form p.send-form-btn input{
+.send-form p.send-form-btn input {
 	margin-left: 85px;
 	margin-top: 20px;
 	width: 110px;
@@ -1311,42 +1323,91 @@
 	border-radius: 5px;
 }
 /*公共缴费*/
-.order-list .wp15{
+.order-list .wp15 {
 	width: 15%;
 }
-.order-list .wp8{
+.order-list .wp8 {
 	width: 8%;
 }
-.order-list .wp20{
+.order-list .wp20 {
 	width: 20%;
 }
-.order-list .wp10{
+.order-list .wp10 {
 	width: 10%;
 }
-.order-list.fee-order tbody td,
-.order-list.phone-order tbody td{
+.order-list.fee-order tbody td, .order-list.phone-order tbody td {
 	padding: 15px 7px;
 }
-.order-list .orange{
+.order-list .orange {
 	color: #f60;
 }
+.p-img-info {
+	color: #666;
+	font-size: 13px;
+	margin: 10px 0 0;
+}
+.p-img-info2 {
+	color: #f00;
+	font-size: 13px;
+	margin: 10px 0 0 77px;
+}
 /*本地生活*/
-.local.order-list .goods-name a{
+.local.order-list .goods-name a {
 	margin-bottom: 15px;
 }
-.local .goods .goods-para{
+.local .goods .goods-para {
 	float: left;
 }
-.local .goods .goods-para span{
+.local .goods .goods-para span {
 	display: inline-block;
 	color: #666;
 	margin-right: 15px;
 	vertical-align: top;
 	line-height: 24px;
 }
-.goods .goods-para i.store{
+.goods .goods-para i.store {
 	display: inline-block;
 	width: 26px;
 	height: 23px;
 	background-position: -343px -431px;
+}
+.lx-input {
+	background: #eee;
+	border-radius: 2px;
+	width: 200px;
+	height: 30px;
+	padding: 0 5px;
+	border: 1px solid #ddd;
+	line-height: 30px;
+}
+.lx-input2 {
+	background: #eee;
+	border-radius: 2px;
+	width: 360px;
+	height: 30px;
+	padding: 0 5px;
+	border: 1px solid #ddd;
+	line-height: 30px;
+}
+.ETab ul.tab {
+	float: none;
+	overflow: visible;
+}
+.RadioGroup {
+	width: 200px;
+	float: left;
+	overflow: hidden;
+}
+.RadioGroup p {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 0;
+	overflow: hidden;
+	width: 80px;
+}
+.RadioGroup p .RadioGroup_1 {
+	float: left;
+	margin: 0;
+	width: 20px;
 }

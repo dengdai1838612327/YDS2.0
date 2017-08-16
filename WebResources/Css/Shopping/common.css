@@ -264,7 +264,7 @@ a {
 }
 /*header*/
 .header {
-	height: 120px;
+	height: 110px;
 	padding-top: 20px;
 	background: #fff;
 }
@@ -277,6 +277,7 @@ a {
 	left: 400px;
 	position: absolute;
 	width: 505px;
+	top: 58px;
 }
 .row-search ul {
 	margin-bottom: 0;
@@ -346,7 +347,7 @@ a {
 	width: 210px;
 	height: 38px;
 	float: right;
-	margin: 27px 20px 0 0;
+	margin: 17px 20px 0 0;
 	position: relative;
 	border: 1px solid #d4d4d4;
 }
@@ -719,4 +720,485 @@ a {
 	right: -10px;
 	top: 13px;
  *top: 3px;
+}
+.quantity {
+	height: 25px;
+	line-height: 23px;
+	margin: 5px auto;
+	overflow: hidden;
+	width: 120px;
+}
+.quantity span {
+	float: left;
+	height: 25px;
+	width: 25px;
+	text-indent: -9999px;
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 12px;
+	color: #333;
+}
+.quantity span.jia {
+	background: url(../../Images/shopping/jia_on.jpg) 0 0 no-repeat;
+	border: 1px solid #ccc;
+}
+.quantity span.jia.cur {
+	background: url(../../Images/shopping/jia.jpg) 0 0 no-repeat;
+	border: 1px solid #ccc;
+	cursor: default;
+}
+.quantity span.jian {
+	background: url(../../Images/shopping/jian_on.jpg) 0 0 no-repeat;
+	border: 1px solid #ccc;
+}
+.quantity span.jian.cur {
+	background: url(../../Images/shopping/jian.jpg) 0 0 no-repeat;
+	border: 1px solid #ccc;
+	cursor: default;
+}
+.quantity input {
+	border: 1px solid #ccc;
+	float: left;
+	height: 23px;
+	margin: 0 5px;
+	padding: 0;
+	text-align: center;
+	width: 50px;
+}
+/*商品详情页配送地址选择*/
+.EDropdown, .EDropdown .head {
+	position: relative;
+}
+#stock-address.hover {
+	z-index: 3
+}
+.stock-address {
+	float: left;
+	margin-left: -5px;
+	margin-top: -3px;
+}
+.EDropdown .head {
+	cursor: pointer;
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	padding: 1px 1px 1px 5px;
+	z-index: 12;
+}
+.stock-address .address-select, .stock-address .address-used {
+	cursor: pointer
+}
+.stock-address .head {
+	white-space: nowrap
+}
+.stock-address .head .text {
+	float: left
+}
+.stock-address dl {
+	margin: 0 10px;
+	padding-bottom: 15px
+}
+.stock-address dd {
+	padding-top: 10px
+}
+.stock-address dd a {
+	margin-right: 10px
+}
+.stock-address .line {
+	margin: 0 10px 10px;
+	height: 0;
+	overflow: hidden;
+	border-bottom: 1px dotted #eee
+}
+.EDropdown .content {
+	background-color: #fff;
+	left: 0;
+	position: absolute;
+	top: 22px;
+	z-index: 11;
+}
+.hover .content {
+	display: block;
+}
+.stock-address .content {
+	background-color: #fff;
+	width: 380px;
+	padding-top: 20px
+}
+.EDropdown .border .content {
+	border: 1px solid #ccc;
+}
+.root61 .EDropdown .content {
+	left: 0;
+	right: auto;
+}
+.stock-address .address-used .arrow {
+	float: right;
+	margin-top: 5px;
+	background: url(../../Images/shopping/arr-open.png) no-repeat;
+	background: url(../../Images/shopping/arr-close.png) no-repeat\9
+}
+.stock-address .address-used.more .arrow {
+	background: url(../../Images/shopping/arr-close.png) no-repeat;
+	background: url(../../Images/shopping/arr-open.png) no-repeat\9
+}
+.stock-address .address-used li a {
+	width: auto
+}
+.stock-address .address-select .arrow {
+	float: right;
+	margin-top: 5px;
+	background: url(../../Images/shopping/arr-open.png) no-repeat;
+	background: url(../../Images/shopping/arr-close.png) no-repeat\9
+}
+.stock-address .address-select.clicked .arrow {
+	background: url(../../Images/shopping/arr-close.png) no-repeat;
+	background: url(../../Images/shopping/arr-open.png) no-repeat\9
+}
+.stock-address .hw-tab-con {
+	position: relative
+}
+.stock-address .hw-tab-con .hw-letters li {
+	padding: 0 2px 0 0;
+	margin-right: 0;
+	display: inline
+}
+.stock-address .hw-tab-con .hw-letters li a.clicked, .stock-address .hw-tab-con .hw-letters li a:hover {
+	background: 0 0;
+	color: #e4393c
+}
+.stock-address .hw-tab-con div.area-letter {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #999
+}
+.stock-address .hw-tab-con div.area-letter-curr {
+	color: #e4393c
+}
+.stock-address .hw-tab-con ul {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee
+}
+.stock-address .hw-area-wrap {
+	height: 300px;
+	overflow-y: scroll
+}
+.stock-address-list li {
+	display: inline-block;
+*display:inline;
+*zoom:1
+}
+.stock-address-list a {
+	display: inline-block;
+*display:inline;
+*zoom:1;
+	padding: 0 2px
+}
+.address-used .stock-address-list a, .address-used .stock-address-list li, .clicked .stock-address-list {
+	display: block
+}
+.stock-address-list a.clicked, .stock-address-list a:hover {
+	background: #e4393c;
+	color: #fff
+}
+.address-used.auto .stock-address-list ul {
+	height: auto
+}
+.address-used.clicked .stock-address-list ul {
+	height: 9em;
+	overflow: auto
+}
+.address-used.clicked .stock-address-list ul .address {
+	width: 238px
+}
+.address-used .stock-address-list ul {
+	height: 1.5em;
+	overflow: hidden
+}
+.address-used .stock-address-list a:hover, .address-used .stock-address-list li.selected a {
+	background-color: transparent;
+	color: #e4393c
+}
+.address-used .stock-address-list .name {
+	display: inline-block;
+	width: 4em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-right: 15px
+}
+.address-used .stock-address-list .address {
+	display: inline-block;
+	width: 248px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+.address-tab .tab li {
+	display: inline-block;
+*display:inline;
+*zoom:1;
+	margin-right: 5px;
+	border: 1px solid #ddd;
+	padding: 2px 10px;
+	background: #fff;
+	color: #005aa0;
+	font: 700 14px 'microsoft yahei';
+	border-bottom: none
+}
+.address-tab .tab .current {
+	border: 2px solid #e4393c;
+	border-bottom: 2px solid #fff
+}
+.address-tab .tab-con {
+	border-top: 2px solid #e4393c;
+	margin-top: -2px;
+	padding-top: 10px
+}
+.address-tab .tab-con li {
+	width: 6.4em;
+	margin-right: 5px;
+	margin-bottom: 5px
+}
+.address-tab .tab-con li a {
+	margin-right: 0
+}
+.address-tab .tab-con li.long-area {
+	width: 13em
+}
+.address-tab .tab-con li.longer-area {
+	width: 26em
+}
+.summary-service {
+	color: #999
+}
+.summary-service i {
+	display: inline-block;
+*display:inline;
+*zoom:1;
+	vertical-align: top;
+	margin-left: 2px
+}
+.summary-service a {
+	color: #999;
+	margin: 0 5px
+}
+.clothing .summary-service a {
+	color: #e4393c
+}
+#summary-supply {
+	clear: both;
+	margin-top: -10px
+}
+#summary-supply.stand-alone {
+	margin-top: 0
+}
+.summary-line {
+	height: 0;
+	overflow: hidden;
+	border-bottom: 1px dotted #dfdfdf;
+	margin-bottom: 15px
+}
+.summary-stock .store {
+	margin-bottom: 5px
+}
+.summary-stock .store .store-selector {
+	margin-right: 10px;
+	float: left
+}
+.summary-stock .store .store-selector div {
+	float: left;
+	z-index: 1
+}
+.summary-stock .store .store-selector .head {
+	z-index: 2
+}
+.summary-stock .store .store-selector .sprite-arr-close {
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle
+}
+.summary-stock .store .store-prompt {
+	margin-right: 10px;
+	color: #999;
+	height: 24px;
+	float: left
+}
+.summary-stock .store .store-prompt strong {
+	margin-right: 5px;
+	float: left;
+	font-size: 12px
+}
+.summary-stock .store .store-prompt .store-prompt-num {
+	float: left;
+	margin-right: 10px
+}
+.summary-stock .store .store-prompt .support {
+	float: left
+}
+.summary-stock .store .store-prompt .support .support-name {
+	color: #666
+}
+.summary-stock .store .store-prompt .support img {
+	margin: 0 3px
+}
+.summary-stock .store .store-prompt .tip {
+	float: left
+}
+.summary-stock .dcashDesc i {
+	display: inline-block;
+*display:inline;
+*zoom:1;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	line-height: 1000px;
+	vertical-align: middle;
+	background-image: url(../../Images/shopping/question.png)
+}
+.EDropdown .arrow {
+	display: inline-block;
+*display:inline;
+*zoom:1;
+	vertical-align: middle;
+	width: 13px;
+	height: 7px;
+	margin: 0 10px 0 5px;
+	_font-size: 0;
+	background: url(../../Images/shopping/arr-close.png) no-repeat;
+	transition: .2s ease;
+	-ms-transition: .2s ease;
+	-moz-transition: .2s ease;
+	-webkit-transition: .2s ease;
+	-o-transition: .2s ease
+}
+.EDropdown .arr-open {
+	background: url(../../Images/shopping/arr-open.png) no-repeat\9;
+}
+.EDropdown .close {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	line-height: 1000px;
+	background: url(../../Images/shopping/close.png)
+}
+.EDropdown .border .head {
+	border: 1px solid #ccc;
+	border-bottom: none;
+	padding: 0
+}
+.hover .content {
+	display: block
+}
+.hover .head {
+	background-color: #fff
+}
+.hover div.border .head {
+	border-bottom: none;
+	padding-bottom: 1px;
+	padding-left: 5px;
+}
+.hover .arrow {
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg)
+}
+.root61 .EDropdown .content {
+	right: auto;
+	left: 0
+}
+.ETooltips {
+	position: absolute;
+	display: none
+}
+.sp-search p label, .sp-search p span, .tag-list li {
+	display: inline-block
+}
+.ETooltips .content {
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #cecbce;
+	color: #666;
+	-moz-box-shadow: 0 0 2px 2px #eee;
+	-webkit-box-shadow: 0 0 2px 2px #eee;
+	box-shadow: 0 0 2px 2px #eee
+}
+.ETooltips .arrow {
+	position: absolute;
+	background: url(../../Images/shopping/arr-close.png) no-repeat;
+}
+.ETooltips .close {
+	position: absolute;
+	color: #666;
+	font: 12px simsun;
+	cursor: pointer
+}
+.ETooltips-top {
+	padding-bottom: 5px
+}
+.ETooltips-top .arrow {
+	left: 10px;
+	bottom: 0;
+	width: 11px;
+	height: 6px;
+	background-position: 0 -5px;
+	_bottom: -1px;
+	z-index: 2
+}
+.ETooltips-top .close {
+	right: 1px;
+	top: 0
+}
+.ETooltips-right {
+	padding-left: 5px
+}
+.ETooltips-right .arrow {
+	top: 10px;
+	left: 0;
+	width: 6px;
+	height: 11px;
+	background-position: 0 0
+}
+.ETooltips-right .close {
+	right: 1px;
+	top: 1px
+}
+.ETooltips-bottom {
+	padding-top: 5px
+}
+.ETooltips-bottom .arrow {
+	top: 0;
+	left: 10px;
+	width: 11px;
+	height: 6px;
+	background-position: 0 0
+}
+.ETooltips-bottom .close {
+	right: 1px;
+	top: 5px
+}
+.ETooltips-left {
+	padding-right: 5px
+}
+.ETooltips-left .arrow {
+	right: 0;
+	top: 10px;
+	width: 6px;
+	height: 11px;
+	background-position: -5px 0
+}
+.ETooltips-left .close {
+	right: 6px;
+	top: 1px
+}
+.ETooltips-opposite .arrow {
+	left: 80%
+}
+.ETab ul {
+	margin-bottom: 0;
 }
