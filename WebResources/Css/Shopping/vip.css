@@ -1414,3 +1414,82 @@
 .mrem{ background:url(../../Images/shopping/mricon.png) 0 0 no-repeat; position:absolute; width:30px; height:20px; left:10px; top:19px;}
 .mrtt{ width:40px;}
 .main .address-table tbody tr .mrtt{ position:relative;}
+/*我要评价*/
+.tthform-wrap {
+	padding: 15px;
+}
+.address_main .tthform-wrap .addr-form {
+	border-bottom: 1px dashed #bfbfbf;
+	padding-bottom: 10px;
+}
+.tthform-wrap .addr-form label {
+	text-align: left;
+}
+.pf-rating-big {
+  width: 220px;
+  height: 38px;
+  position: relative;
+  overflow: hidden;
+}
+.pf-rating {
+    float: left;
+}
+.star-div {
+	width: 226px;
+	height: 38px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.star-div a {
+	width: 40px;
+	float: left;
+	margin-right: 5px;
+	height: 38px;
+	display: block;
+}
+.pf-rating .icon_star {
+	margin-top: 3px;
+	width: 64px;
+	cursor: pointer;
+	background: url(../../Images/shopping/Xing.png) 0 0px no-repeat;
+}
+.pf-mecomment .pf-rating .icon_star {
+	width: 220px;
+	height: 38px;
+	background: url(../../Images/shopping/bigStar.png) 0 -38px no-repeat;
+	margin-top: 0;
+}
+.pf-mecomment .pf-rating .icon_star .rateStar {
+	width: 220px;
+	height: 38px;
+	background: url(../../Images/shopping/bigStar.png) 0 0px no-repeat;
+}
+.pf-mecomment .addr-form .tth-last {
+	height: 235px;
+	margin-top: 30px;
+}
+.tth-last .hint {
+	margin-left: 100px;
+	color: #bfbfbf;
+	font-size: 12px;
+}
+.tth-last textarea{
+	width: 650px;
+	height: 202px;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+.addr-form .submit {
+  width: 100px;
+  height: 29px;
+  background: #f60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  display: block;
+}
