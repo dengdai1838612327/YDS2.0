@@ -47,7 +47,7 @@
 <!--ic_toolbar-->
 
 <div class="header">
-  <div class="w-1200 clearfix">
+  <div class="w-1200 clearfix" style=" position:relative;">
     <div class="logo"><a href="#"><img src="../WebResources/Images/shopping/logo.png" width="200" height="70"></a> </div>
     <div class="row-search">
       <div class="col-lg-12">
@@ -114,7 +114,7 @@
     <div class="cart">
       <div class="nologin-tip"> <span class=" allbg"></span> 您还没有登录！登录后购物车的商品将保存到您账号中 <a class="btn-1" href="/">立即登录</a> </div>
       
-      <div class="cart-table">
+      <!--<div class="cart-table">
         <div class="cart-item-list">
           <p class="title">现金商品</p>
           <div class="cart-tbody">
@@ -261,6 +261,69 @@
         </dl>
         
         </div>
+      </div>-->
+      <div class="cart-table">
+        <dl class="dl2">
+          <dt>
+            <input type="checkbox" onclick="javascript: CheckAllProducts();" value="全选" id="controlAll" name="controlAll">
+          </dt>
+          <dd class="dd-1">商品</dd>
+          <dd class="dd-2">单价(元)</dd>
+          <dd class="dd-3 pl35">数量</dd>
+          <dd class="dd-4">总价（元）</dd>
+          <dd class="dd-5">操作</dd>
+        </dl>
+        <dl class="dl3">
+          <dt>
+            <input type="checkbox" onclick="" name="lvCart$ctrl0$chkBoxSelect" >
+          </dt>
+          <dd class="dd-1 clearfix">
+            <div class="cart-img"><a href="/"><img src="../WebResources/Images/shopping/tht.gif" width="80" height="60"></a></div>
+            <div class="item-msg">
+              <h5><a href="/"> 库范 PicKit M2 礼盒套餐 手机照片打印机 粉套白色</a></h5>
+              <span>粉套白色</span> </div>
+          </dd>
+          <dd class="dd-2"><span>946.00</span></dd>
+          <dd class="dd-3">
+            <div class="plus"> <a href="/" class="jian allbg"> </a>
+              <input type="text" value="1" class="input2"  name="">
+              <a href="/" class="jia allbg"> </a> </div>
+          </dd>
+          <dd class="dd-4"><span>946.00</span> </dd>
+          <dd class="dd-5"><a class="sc" href="/">删除</a></dd>
+        </dl>
+        <dl class="dl3">
+          <dt>
+            <input type="checkbox" name="lvCart$ctrl0$chkBoxSelect" onclick="">
+          </dt>
+          <dd class="dd-1 clearfix">
+            <div class="cart-img"><a href="/"><img width="80" height="60" src="../WebResources/Images/shopping/tht.gif"></a></div>
+            <div class="item-msg">
+              <h5><a href="/"> 库范 PicKit M2 礼盒套餐 手机照片打印机 粉套白色</a></h5>
+              <span>粉套白色</span> </div>
+          </dd>
+          <dd class="dd-2"><span>946.00</span></dd>
+          <dd class="dd-3">
+            <div class="plus"> <a class="jian allbg" href="/"> </a>
+              <input type="text" name="" class="input2" value="1">
+              <a class="jia allbg" href="/"> </a> </div>
+          </dd>
+          <dd class="dd-4"><span>946.00</span> </dd>
+          <dd class="dd-5"><a href="/" class="sc">删除</a></dd>
+        </dl>
+        <dl class="dl4 n_b">
+          <dt>
+            <input type="checkbox" onclick="javascript: CheckAllProducts1();" value="全选"  name="controlAll1">
+          </dt>
+          <dd class="dd-1"><a href="/">删除选中的商品</a></dd>
+          <dd class="dd-2 ">已选择<b>0</b>件商品</dd>
+          <dd class="dd-4">
+            <p class="p02"><em>合计：</em><span>￥0.00</span></p>
+          </dd>
+          <dd class="dd-5">
+            <a href="javascript:__doPostBack('ImageButton2','')" class="allbg on" id="ImageButton2"></a>
+          </dd>
+        </dl>
       </div>
       
       <div class="featured-products">

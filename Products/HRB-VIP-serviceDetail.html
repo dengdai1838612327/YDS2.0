@@ -47,7 +47,7 @@
 <!--ic_toolbar-->
 
 <div class="header">
-  <div class="w-1200 clearfix">
+  <div class="w-1200 clearfix" style=" position:relative;">
     <div class="logo"><a href="#"><img src="../WebResources/Images/shopping/logo.png" width="200" height="70"></a> </div>
     <div class="row-search">
       <div class="col-lg-12">
@@ -59,10 +59,10 @@
         <!-- /input-group -->
         <div class="keyword"><a href="###">冰箱</a><a href="###">电视</a><a href="###">洗衣机</a><a href="###">冰箱</a><a href="###">电视</a><a href="###">洗衣机</a><a href="###">冰箱</a><a href="###">电视</a><a href="###">洗衣机</a><a href="###">冰箱</a><a href="###">电视</a><a href="###">洗衣机</a></div>
       </div>
-      <!-- /.col-lg-6 -->
+      <!-- /.col-lg-6 --> 
     </div>
     <!-- /.row-search -->
-
+    
     <div class="h-cart"> <i class="ci-count">0</i> <i class=" allbg iconfont"></i> <a target="_blank" href="###">我的购物车</a> </div>
   </div>
 </div>
@@ -197,7 +197,7 @@
         <li> <a href="###">违章缴费</a> </li>
       </ul>
     </div>
-    <div class="small-banner">
+    <div class="small-banner"> 
       <!--公告-->
       <div class="notice"> <i class="allbg"></i>
         <div class="t-news" id="t-news"> <a href="###" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延1</a> <a href="###" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延2</a> <a href="###" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延3</a> </div>
@@ -211,7 +211,7 @@
                 if (!stop) box.scrollTop == parseInt(box.scrollHeight / 2) ? box.scrollTop = 0 : box.scrollTop++;
                 setTimeout(arguments.callee, box.scrollTop % 24 ? 10 : 2000);
             };
-        </script>
+        </script> 
       </div>
     </div>
   </div>
@@ -264,30 +264,26 @@
             <table>
               <thead>
                 <tr>
-                  <th colspan="5">
-                    <span class="time">2017-07-13 19:20:30</span>
-                    <span class="order-id"><em>订单编号：</em>1234567890</span>
-                  </th>
+                  <th colspan="5"> <span class="time">2017-07-13 19:20:30</span> <span class="order-id"><em>服务编号：</em>1234567890</span> </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td class="goods wp52">
-                    <a href="###" class="img"><img src="../WebResources/Images/shopping/tht.gif" width="80" height="80"></a>
-                    <div class="goods-name">
-                      <a href="###">商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字</a>
-                      <div class="goods-para">
-                        <span>商品参数</span>
-                        <span>商品颜色</span>
-                      </div>
-                    </div>
-                  </td>
+                  <td class="goods wp52"><a href="###" class="img"><img src="../WebResources/Images/shopping/tht.gif" width="80" height="80"></a>
+                    <div class="goods-name"> <a href="###">商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字</a>
+                      <div class="goods-para"> <span>商品参数</span> <span>商品颜色</span> </div>
+                    </div></td>
                   <td class="wp12">×2</td>
-                  <td class="wp12">换货</td>
-                  <td class="wp12">寄送中</td>
-                  <td class="wp12 handle">
-                    <a href="###">取消</a>
-                  </td>
+                  <td rowspan="2" class="wp12">换货</td>
+                  <td rowspan="2" class="wp12">寄送中</td>
+                  <td rowspan="2" class="wp12 handle"><a href="###">取消</a></td>
+                </tr>
+                <tr>
+                  <td class="goods wp52"><a href="###" class="img"><img src="../WebResources/Images/shopping/tht.gif" width="80" height="80"></a>
+                    <div class="goods-name"> <a href="###">商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字商品名字</a>
+                      <div class="goods-para"> <span>商品参数</span> <span>商品颜色</span> </div>
+                    </div></td>
+                  <td class="wp12">×2</td>
                 </tr>
               </tbody>
             </table>
@@ -295,21 +291,31 @@
         </div>
         <div class="service-status">
           <p>
+            <label>订单编号：</label>
+            <span class="">66666666666666666</span> </p>
+          <p>
+            <label>可退总额：</label>
+            <span class="">￥149.00元</span> </p>
+          <p>
             <label>处理结果：</label>
-            <span class="red">通过</span>
-          </p>
+            <span class="red">通过</span> </p>
           <p>
             <label>审核结果：</label>
-            <span class="red">通过</span>
-          </p>
-           <p>
+            <span class="red">通过</span> </p>
+          <p>
             <label>联&ensp;系&ensp;人：</label>
-            <span class=""><i>程先生</i><br><i>13999999999</i></span>
-          </p>
-           <p>
+            <span class=""><i>程先生</i><br>
+            <i>13999999999</i></span> </p>
+          <p>
             <label>返件地址：</label>
-            <span class=""><i>上海市&nbsp;浦东新区&nbsp;金桥</i><br/><i>上海市&nbsp;浦东新区&nbsp;金桥&nbsp;新金桥大厦10楼</i></span>
-          </p>
+            <span class=""><i>上海市&nbsp;浦东新区&nbsp;金桥</i><br/>
+            <i>上海市&nbsp;浦东新区&nbsp;金桥&nbsp;新金桥大厦10楼</i></span> </p>
+          <p>
+            <label>物流公司：</label>
+            <span class="">顺丰 </span></p>
+          <p>
+            <label>物&ensp;流&ensp;号：</label>
+            <span class="">66666666666666666</span> </p>
         </div>
         <div class="logistics-list">
           <div class="logistics-head">
@@ -327,10 +333,11 @@
             </div>
           </div>
         </div>
-      </div>
+        </span></span></div>
     </div>
   </div>
 </div>
+<span class=""><span> 
 <!--content-->
 
 <div class="footer">
@@ -386,8 +393,9 @@
       版权所有 2014 哈尔冰银行版权所有  沪ICP备05022859号</p>
   </div>
 </div>
-<script src="../WebResources/bootstrap-3.3.6-dist/js/jquery-1.9.1.min.js"></script>
-<script src="../WebResources/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-<script src="../WebResources/JS/shopping/layout.js"></script>
+<script src="../WebResources/bootstrap-3.3.6-dist/js/jquery-1.9.1.min.js"></script> 
+<script src="../WebResources/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script> 
+<script src="../WebResources/JS/shopping/layout.js"></script> 
+</span></span>
 </body>
 </html>

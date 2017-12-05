@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>新版哈尔冰银行</title>
+<title>手机充值</title>
 <link rel="stylesheet"  href="../WebResources/Css/shopping/common.css">
 <link rel="stylesheet"  href="../WebResources/Css/shopping/layout.css">
-<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet"  href="../WebResources/bootstrap-3.3.6-dist/Css/bootstrap.min.css">
 </head>
 <body>
 <!--头部-->
@@ -47,7 +47,7 @@
 <!--ic_toolbar-->
 
 <div class="header">
-  <div class="w-1200 clearfix">
+  <div class="w-1200 clearfix" style=" position:relative;">
     <div class="logo"><a href="#"><img src="../WebResources/Images/shopping/logo.png" width="200" height="70"></a> </div>
     <div class="row-search">
       <div class="col-lg-12">
@@ -59,10 +59,10 @@
         <!-- /input-group -->
         <div class="keyword"><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a><a href="/">冰箱</a><a href="/">电视</a><a href="/">洗衣机</a></div>
       </div>
-      <!-- /.col-lg-6 -->
+      <!-- /.col-lg-6 --> 
     </div>
     <!-- /.row-search -->
-
+    
     <div class="h-cart"> <i class="ci-count">0</i> <i class=" allbg iconfont"></i> <a target="_blank" href="###">我的购物车</a> </div>
   </div>
 </div>
@@ -75,7 +75,7 @@
     </div>
     <div class="navitems-2016">
       <ul class="navitems-group">
-        <li class="cur"><a href="/">商城首页</a></li>
+        <li class="cur"> <a href="/">商城首页</a></li>
         <li><a href="/">积分频道</a> </li>
         <li> <a href="/">分期频道</a> </li>
         <li> <a href="/">公共缴费</a> </li>
@@ -84,7 +84,7 @@
         <li> <a href="/">违章缴费</a> </li>
       </ul>
     </div>
-    <div class="small-banner">
+    <div class="small-banner"> 
       <!--公告-->
       <div class="notice"> <i class="allbg"></i>
         <div class="t-news" id="t-news"> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延1</a> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延2</a> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank">【公告】关于商城因春节假期延3</a> </div>
@@ -98,61 +98,90 @@
                     if (!stop) box.scrollTop == parseInt(box.scrollHeight / 2) ? box.scrollTop = 0 : box.scrollTop++;
                     setTimeout(arguments.callee, box.scrollTop % 24 ? 10 : 2000);
                 };
-            </script>
+            </script> 
       </div>
     </div>
   </div>
 </div>
 <!--nav-->
-<div class="HRB-main">
+<div class="hrb-main">
   <div class="w-1200 clearfix">
     <ol class="breadcrumb">
       <li><a href="#">首页</a></li>
-      <li class="active">手机充值</li>
+      <li class="active">话费充值</li>
     </ol>
-    <div>
-      <h4 class="phone-h4">手机充值明细</h4>
-      <div class="phone-box">
-        <div class="phone-form">
-          <p class="clearfix">
-            <label>手机号码</label>
-            <input type="text">
-            <em class="error">手机号码错误请输入正确手机号码</em>
-          </p>
-          <p class="clearfix">
-            <label>确认手机号码</label>
-            <input type="text">
-            <em class="error">错误提示错误提示错误提示错误提示</em>
-          </p>
-          <p class="clearfix">
-            <label>充值面额</label>
-            <em class="value">
-              <span>20</span>
-              <span>30</span>
-              <span>50</span>
-              <span class="on">100</span>
-              <span>200</span>
-            </em>
-          </p>
-          <p class="clearfix">
-            <label>支付金额</label>
-            <span class="price"><em>￥</em>99.99</span>
-          </p>
-        </div>
-        <h4 class="way-h4">支付方式</h4>
-        <ul class="way-list">
-          <li class="on">银行卡快捷支付</li>
-          <li>银行卡快捷支付</li>
-          <li>银行卡快捷支付</li>
-          <li>银行卡快捷支付</li>
+    <div class="rechargebox clearfix">
+      <div class="leftMenu">
+        <ul>
+          <li class="fore1-1 lh_220"> <i class="cz_bg"></i> 话费充值 </li>
+          <li class="fore2-1 lh_220  cur"> <i class="cz_bg"></i> 流量充值 </li>
+          <li class="fore3-1 qd">敬请期待 </li>
+          <li class="fore4-1 qd">敬请期待 </li>
         </ul>
-        <div class="go-pay">
-          <input type="button" value="去支付">
+      </div>
+      <div class="bussContent">
+        <div class="detailContent">
+          <div class="cz-iframe">
+            <div class="item clearfix">
+              <label>手机号码：</label>
+              <div class="phoneContainer">
+                <input name="" value="支持移动/联通/电信" type="text" class="phone_input">
+                <em>上海移动</em> <span>错误提示提示错误提示提示错误提示提示</span> </div>
+            </div>
+            <div class="item clearfix">
+              <label>充值面值：</label>
+              <div class="productList">
+                <ul class="clearfix">
+                  <li>300M<i class="cz_bg"></i></li>
+                  <li class="cur">100M<i class="cz_bg"></i></li>
+                  <li>50M<i class="cz_bg"></i></li>
+                  <li>30M<i class="cz_bg"></i></li>
+                  <li>20M<i class="cz_bg"></i></li>
+                  <li>10M<i class="cz_bg"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item clearfix">
+              <label>销售价格：</label>
+              <div class="salePrice"> ￥99.8元 </div>
+            </div>
+            <div class="item item2 clearfix">
+              <label>支付方式：</label>
+              <div class="pay_style">
+                <ul>
+                  <li class="cur h18">大连农商银行<br />
+                    快捷支付<i class="cz_bg"></i> </li>
+                  <li style="display:none;">银联支付</li>
+                  <li style="display:none;" class="cur">快捷支付<i class="cz_bg"></i> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="item" >
+              <label>&nbsp;</label>
+              <div>
+                <input class="submit" value="立即充值" type="button">
+              </div>
+            </div>
+          </div>
+          <div class="foot-tips">
+            <div class="remark-tips">
+              <p><em>温馨提示：</em></p>
+              <ol>
+                <li>1.&nbsp;此业务的后台提供商为中国光大银行；此业务商为中国光大银行</li>
+                <li>2.&nbsp;此业务的后台提供商为中国光大银行；此业提供商为中国光大银行</li>
+                <li>3.&nbsp;此业务的后台提供商为中国光大银行；此业台提供商为中国光大银行</li>
+                <li>4.&nbsp;此业务的后台提供商为中国光大银行；此业务的提供商为中国光大银行</li>
+                <li>5.&nbsp;此业务的后台提供商为中国光大银行；此业务的后台提供商为中国光大银行</li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<!--content-->
+
 <div class="footer">
   <div class="w-1200">
     <div class="footer1 clearfix">
@@ -176,7 +205,7 @@
       <div class="h_3"> <i class="allbg"></i>
         <dl>
           <dt>支付方式</dt>
-          <dd><a href="#">哈尔冰银行信用卡支付</a> </dd>
+          <dd><a href="#">浦发银行信用卡支付</a> </dd>
           <dd><a href="#">发票制度</a> </dd>
         </dl>
       </div>
@@ -206,9 +235,5 @@
       版权所有 2014 哈尔冰银行版权所有  沪ICP备05022859号</p>
   </div>
 </div>
-<!--content-->
-<script src="../bootstrap-3.3.6-dist/js/jquery-1.9.1.min.js"></script>
-<script src="../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-<script src="../WebResources/JS/shopping/layout.js"></script>
 </body>
 </html>

@@ -20,7 +20,7 @@
 }
 .hrb-main {
 	overflow: hidden;
-	background: #eee;
+	background: #bebebe url(../../Images/shopping/login_bg.jpg) center 0 no-repeat;
 }
 .login-img {
 	float: left;
@@ -136,6 +136,6 @@
 	width: 298px;
 	height: 30px;
 	line-height: 30px;
-	font-size:13px;
-	color:#f00;
+	font-size: 13px;
+	color: #f00;
 }
