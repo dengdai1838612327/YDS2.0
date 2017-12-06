@@ -232,7 +232,7 @@
 	float: left;
 	overflow: hidden;
 	width: 920px;
-	border-bottom: 1px solid #f60;
+	border-bottom: 1px solid #ff4f4f;
 	margin: 14px 0 0;
 }
 .mob-ul li {
@@ -249,7 +249,7 @@
 	color: #666;
 }
 .mob-ul li a:hover, .mob-ul li.current a {
-	background: #f60;
+	background: #ff4f4f;
 	padding: 0 15px;
 	color: #fff;
 	text-decoration: none;
@@ -826,20 +826,20 @@
 /*侧边结束*/
 /*轮播右侧开始*/
 .img-r-t {
-	height: 204px;
-	padding: 20px 10px 14px;
+	height: 130px;
+	padding: 10px 0 5px;
 	overflow: hidden;
 	background: #fff;
-	margin-bottom: 6px;
-	background: url(../../Images/shopping/bg4.jpg) 0 0 no-repeat;
+	border-bottom: 1px solid #ddd;
+	/*background: url(../../Images/shopping/bg4.jpg) 0 0 no-repeat;*/
 }
 .img-r-t div {
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .img-r-t .head {
 	display: block;
-	border: 3px solid #ccc;
+	border: 1px solid #ccc;
 	border-radius: 50%;
 	margin: 5px 0;
 	overflow: hidden;
@@ -848,14 +848,15 @@
 	margin: 0 auto;
 }
 .img-r-t .ml10 p {
-	margin: 0 0 8px;
-	font-size: 13px;
+	margin: 0;
+	font-size: 12px;
 }
 .img-r-t .link {
 	font-size: 12px;
 }
 .img-r-t .link .black {
-	color: #f60;
+	color: #ff4f4f;
+	margin: 0 10px;
 }
 .img-r-t .link .orange {
 	color: #f60;
@@ -865,20 +866,22 @@
 	height: 30px;
 	line-height: 30px;
 	margin-bottom: 0;
+	margin-left: 10px;
+	border-bottom: 1px solid #ddd;
 }
 .img-r .tab-list .tab-item {
 	float: left;
-	width: 50%;
 	height: 29px;
 	text-align: center;
 	position: relative;
 	cursor: pointer;
 }
 .img-r .tab-list .tab-item.on span {
-	border-bottom: 2px solid #f60;
+	border-bottom: 3px solid #f60;
 }
 .img-r .tab-list .tab-item span {
-	padding: 0 3px 3px;
+	padding: 0 3px 4px;
+	margin-right: 10px;
 }
 .img-r .tab-list .tab-item i.up {
 	position: absolute;
@@ -914,6 +917,12 @@
 	overflow-wrap: normal;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+}
+.img-r-m {
+	background-color: #fff;
+	height: 115px;
+	border-bottom: 1px solid #d2d2d2;
+	position: relative;
 }
 .img-r-b {
 	background: #fff;
@@ -2957,12 +2966,12 @@
 /*首页手机充值入口*/
 .form-box {
 	margin-bottom: 0;
-	height: 140px;
+	height: 110px;
 	position: relative;
 }
 .form-box li {
 	overflow: hidden;
-	margin-top: 12px;
+	margin-top: 5px;
 }
 .form-box li label {
 	float: left;
@@ -2981,12 +2990,13 @@
 	padding-left: 10px;
 }
 .form-box li select {
-	width: 135px;
+	width: 140px;
 	height: 24px;
 	padding-left: 7px;
+	background-color: #fff;
 }
 .form-box li.ts span {
-	color: #f60;
+	color: #ffbe22;
 	float: left;
 	font-size: 12px;
 	padding-left: 5px;
@@ -3004,9 +3014,9 @@
 
 .form-box li .but {
 	background: #fff none repeat scroll 0 0;
-	border: 2px solid #f60;
+	border: 2px solid #ff4f4f;
 	border-radius: 0;
-	color: #f60;
+	color: #ff4f4f;
 	float: left;
 	font-size: 14px;
 	height: 28px;
@@ -3018,15 +3028,15 @@
 .form-box li.btns {
 	width: 100%;
 	position: absolute;
-	bottom: 30px;
+	bottom: 0;
 	left: 0;
 }
-.form-box li.ts {
+/*.form-box li.ts {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
 	left: 0;
-}
+}*/
 /*手机充值*/
 .cz_bg {
 	background: url(../../Images/shopping/cz_bg.png) 0 0 no-repeat;
@@ -5155,4 +5165,255 @@
 	position: absolute;
 	text-align: center;
 	width: 190px;
+}
+/*首页修改*/
+.top-ad{
+	background-color: #07081d;
+	height: 78px;
+}
+.top-ad .w-1200{
+	position: relative;
+}
+.top-ad i{
+	position: absolute;
+	top: 5px;
+	right: 0;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	background-position: -176px -22px;
+}
+.dlns-ms .tit{
+	background: url(../../Images/shopping/bar-red.jpg) 0 0 no-repeat;
+	width: 1200px;
+	height: 48px;
+	padding: 0 20px;
+	color: #fff;
+}
+.dlns-ms .tit .fl{
+	font-size: 14px;
+	overflow: hidden;
+}
+.dlns-ms .ms-icon{
+	float: left;
+	width: 34px;
+	height: 34px;
+	margin: 7px 7px 7px 0;
+	background-position: -21px -125px;
+}
+.dlns-ms .tit h4{
+	font-size: 20px;
+	float: left;
+	margin: 0;
+	line-height: 48px;
+}
+.dlns-ms .tit .fl span{
+	float: left;
+	height: 48px;
+	line-height: 52px;
+	margin-left: 10px;
+}
+.dlns-ms .tit .fr{
+	overflow: hidden;
+}
+.dlns-ms .tit .time{
+	float: left;
+	overflow: hidden;
+}
+.dlns-ms .tit .time span{
+	float: left;
+	width: 30px;
+	height: 34px;
+	line-height: 34px;
+	margin: 7px 5px;
+	background-color: #393939;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+.dlns-ms .tit .time em{
+	float: left;
+	line-height: 34px;
+	margin: 7px 0;
+	font-size: 20px;
+	color: #333;
+}
+.dlns-ms .tit .fr .text{
+	float: left;
+	height: 48px;
+	line-height: 60px;
+	font-size: 12px;
+}
+.dlns-ms .con{
+	padding: 20px 0 10px;
+	background-color: #fff;
+}
+.dlns-ms .con ul{
+	overflow: hidden;
+	margin: 0;
+}
+.dlns-ms .con ul li{
+	float: left;
+	width: 200px;
+	height: 235px;
+	padding: 0 10px;
+	border-right: 1px solid #ddd;
+}
+.dlns-ms .con ul li:last-child{
+	border-right: none;
+}
+.dlns-ms .spricedown{
+	width: 146px;
+	height: 146px;
+	margin: 0 auto 10px;
+}
+.dlns-ms .spricedown a img{
+	width: 146px;
+	height: 146px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.dlns-ms .spricedown a img:hover{
+	-webkit-transform: translateX(-5px);
+	-ms-transform: translateX(-5px);
+	transform: translateX(-5px);
+}
+.dlns-ms .con .name a{
+	display: block;
+	font-size: 14px;
+	color: #666;
+	height: 40px;
+	overflow: hidden;
+}
+.dlns-ms .con .is-fq{
+	letter-spacing: 0;
+}
+.dlns-ms .con .is-fq span{
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+.dlns-hot .fl{
+	width: 400px;
+}
+.dlns-hot .fl .tit{
+	background: url(../../Images/shopping/bar-orange.jpg) 0 0 no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+.dlns-hot .fl .con{
+	background-color: #fff;
+	padding: 5px;
+}
+.dlns-hot .fl .con ul{
+	overflow: hidden;
+	margin: 0;
+}
+.dlns-hot .fl .con ul.top1-3{
+	border-bottom: 1px solid #ddd;
+}
+.dlns-hot .fl .con ul li{
+	float: left;
+	width: 130px;
+	height: 200px;
+	border-right: 1px solid #ddd;
+	padding: 5px;
+	position: relative;
+}
+.dlns-hot .fl .con ul li:last-child{
+	border-right: none;
+}
+.dlns-hot .spricedown{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto 10px;
+}
+.dlns-hot .spricedown a img{
+	width: 120px;
+	height: 120px;
+}
+.dlns-hot .name a{
+	font-size: 13px;
+	color: #666;
+	display: block;
+	height: 35px;
+	overflow: hidden;
+}
+.dlns-hot .is-fq{
+	letter-spacing: 0;
+	padding: 0;
+	margin-top: 5px;
+	font-size: 16px;
+}
+.dlns-hot .fl .con i.top{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 30px;
+	height: 40px;
+}
+.dlns-hot .fl .con i.top.top1{
+	background-position: -130px -331px;
+}
+.dlns-hot .fl .con i.top.top2{
+	background-position: -165px -331px;
+}
+.dlns-hot .fl .con i.top.top3{
+	background-position: -200px -331px;
+}
+.dlns-hot .fl .con i.top.top4{
+	background-position: -130px -378px;
+}
+.dlns-hot .fl .con i.top.top5{
+	background-position: -165px -378px;
+}
+.dlns-hot .fl .con i.top.top6{
+	background-position: -200px -378px;
+}
+.dlns-hot .fr{
+	width: 780px;
+}
+.dlns-hot .fr .tit{
+	background: url(../../Images/shopping/bar-yellow.jpg) 0 0 no-repeat;
+	background-size: cover;
+	width: 780px;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+.dlns-hot .fr .con{
+	height: 411px;
+	background-color: #fff;
+	padding: 8px 5px;
+/*	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;*/
+}
+.dlns-hot .fr .con .line1{
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+.dlns-hot .fr .con .line1 img{
+	float: left;
+	margin-right: 6px;
+}
+.dlns-hot .fr .con .line1 img:last-child{
+	margin-right: 0;
+}
+.dlns-hot .fr .con .line2{
+	overflow: hidden;
+}
+.dlns-hot .fr .con .line2 img{
+	float: left;
+	margin-right: 7px;
+}
+.dlns-hot .fr .con .line2 img:last-child{
+	margin-right: 0;
 }

@@ -265,16 +265,17 @@ a {
 /*header*/
 .header {
 	height: 110px;
-	background: #f6f6f6;
+	background: #fff;
 }
 .header .logo {
-	width: 200px;
-	height: 148px;
+	width: 355px;
+	height: 54px;
 	float: left;
-	position: absolute;
+	margin: 30px 0 0;
+/*	position: absolute;
 	left: 0;
 	top: 0;
-	z-index: 1;
+	z-index: 1;*/
 }
 .row-search {
 	left: 400px;
@@ -305,7 +306,7 @@ a {
 	color: #fff;
 }
 .row-search .input-group .form-control {
-	border: 2px solid #f60;
+	border: 2px solid #ff4f4f;
 	border-radius: 0;
 	height: 31px;
 	line-height: 31px;
@@ -314,8 +315,8 @@ a {
 	background: #fff;
 }
 .input-group-btn .btn {
-	background: #f60 none repeat scroll 0 0;
-	border: 2px solid #f60;
+	background: #ff4f4f none repeat scroll 0 0;
+	border: 2px solid #ff4f4f;
 	border-radius: 0;
 	color: #fff;
 	height: 31px;
@@ -326,9 +327,16 @@ a {
 	border-left: none;
 	outline: none;
 }
+.input-group-btn .btn i.search{
+	display: inline-block;
+	margin: 5px 0;
+	width: 24px;
+	height: 24px;
+	background-position: -21px -90px;
+}
 .row-search .btn-default:hover, .row-search .btn-default.focus, .row-search .btn-default:focus {
-	background: #f60;
-	border: 2px solid #f60;
+	background: #ff4f4f;
+	border: 2px solid #ff4f4f;
 	border-left: none;
 	color: #fff;
 	outline: none;
@@ -356,7 +364,7 @@ a {
 	width: 190px;
 }
 .h-cart a {
-	color: #eb6100;
+	color: #ff4f4f;
 	font-family: 微软雅黑;
 	font-size: 14px;
 	left: 70px;
@@ -378,8 +386,8 @@ a {
 	top: 5px;
 }
 .iconfont {
-	background-position: -235px -97px;
-	height: 22px;
+	background-position: -235px -125px;
+	height: 24px;
 	left: 30px;
 	position: absolute;
 	top: 5px;
@@ -387,8 +395,8 @@ a {
 }
 /*nav*/
 .nav-2016 {
-	border-bottom: 3px solid #f60;
-	background: #f6f6f6;
+	/*border-bottom: 3px solid #f60;*/
+	background: #fff;
 	font-family: 微软雅黑;
 }
 .nav-2016 .w-1200 {
@@ -405,14 +413,14 @@ a {
 	overflow: visible;
 }
 .dorpdown .dt {
-	visibility: hidden;
-	padding-bottom: 3px;
+	/*visibility: hidden;
+	padding-bottom: 3px;*/
 }
 .dorpdown .dt a {
 	display: block;
 	width: 200px;
 	height: 38px;
-	background: #f60;
+	background: #ff4f4f;
 	font: 400 18px/38px "microsoft yahei";
 	color: #fff;
 	text-decoration: none;
@@ -441,7 +449,7 @@ a {
 	color: #555;
 }
 .navitems-2016 li.cur a, .navitems-2016 li a:hover {
-	color: #f60;
+	color: #ff4f4f;
 }
 .navitems-2016 li a:hover, .navitems-2016 li a:focus {
 	text-decoration: none;
